@@ -1,0 +1,31 @@
+# --- WordPress core : pas dans Git ---
+wp-admin/
+wp-includes/
+license.txt
+readme.html
+
+# --- Fichiers lourds / bruyants ---
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/debug.log
+*.log
+
+# --- Fichier d'info Local / debug ---
+local-xdebuginfo.php
+
+# --- Config locale / secrets ---
+wp-config.php
+.env
+
+# --- Caches / dépendances éventuelles ---
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/wp-cache-config.php
+node_modules/
+vendor/
+
+# --- macOS / IDE ---
+.DS_Store
+.idea/
+.vscode/
