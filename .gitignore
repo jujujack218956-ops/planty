@@ -8,6 +8,7 @@ readme.html
 wp-content/uploads/
 wp-content/cache/
 wp-content/upgrade/
+wp-content/upgrade-temp-backup/
 wp-content/debug.log
 *.log
 
