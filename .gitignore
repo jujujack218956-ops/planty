@@ -1,30 +1,32 @@
-# --- WordPress core : pas dans Git ---
-wp-admin/
-wp-includes/
-license.txt
-readme.html
+# --- WordPress core (racine) ---
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/xmlrpc.php
+/readme.html
+/license.txt
+/local-xdebuginfo.php
 
-# --- Fichiers lourds / bruyants ---
-wp-content/uploads/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/upgrade-temp-backup/
-wp-content/debug.log
+# --- Contenu lourd/volatile ---
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/upgrade-temp-backup/
+/wp-content/debug.log
 *.log
 
-# --- Fichier d'info Local / debug ---
-local-xdebuginfo.php
+# --- Caches WordPress ---
+/wp-content/advanced-cache.php
+/wp-content/object-cache.php
+/wp-content/wp-cache-config.php
 
-# --- Config locale / secrets ---
-wp-config.php
-.env
+# --- Secrets locaux ---
+/wp-config.php
+/.env
 
-# --- Caches / dépendances éventuelles ---
-wp-content/advanced-cache.php
-wp-content/object-cache.php
-wp-content/wp-cache-config.php
-node_modules/
-vendor/
+# --- Dépendances éventuelles ---
+/node_modules/
+/vendor/
 
 # --- macOS / IDE ---
 .DS_Store
