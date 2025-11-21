@@ -63,24 +63,95 @@ Updated: 2025-11-04 11:01:53
   padding: 0;
 }
 
+/* Style par défaut pour les liens */
 .nav-menu li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 236px;
   height: 80px;
+  font-family: 'Syne', sans-serif;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-left: 20px;
+}
+
+/* "Nous rencontrer" et "Admin" - Style par défaut */
+.nav-menu li:not(:last-child) a {
+  width: 114px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+/* Nous rencontrer et Admin au survol*/
+.nav-menu li:not(:last-child) a:hover {
+  width: 120px;
+  font-weight: 700;
+  font-size: 13px;
+  transform: translate(2px, -2px);
+}
+
+/* "Nous rencontrer" et "Admin" - Page courante (active) */
+.nav-menu li:not(:last-child).current-menu-item a {
+  width: 120px;
+  font-weight: 700;
+  font-size: 13px;
+  color: #000000;
+}
+
+/* Bouton "Commander" - Style par défaut */
+.nav-menu li:last-child a {
+  width: 236px;
+  background-color: #DC9F96;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* Bouton "Commander" - Au survol */
+.nav-menu li:last-child a:hover {
+  background-color: #C02E44;
+}
+
+/* Formulaire "Nous contacter" */
+.form_contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Syne', sans-serif;
+  width: 100%;
+  font-size: 20px;
+}
+
+/* ===============FOOTER============== */
+
+#footer {
+  background-color: #ffffff;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container {
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-link {
   font-family: 'Syne', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #000000;
   text-decoration: none;
-  transition: all 0.3s ease;
 }
 
-/* État au survol et actif */
-.nav-menu li a:hover,
-.nav-menu li.current-menu-item a {
-  background-color: #DC9F96;
-  color: #FFFFFF;
-  font-weight: 700;
+/* Pas de changement au survol */
+.footer-link:hover,
+.footer-link:focus {
+  color: #000000;
+  text-decoration: none;
 }

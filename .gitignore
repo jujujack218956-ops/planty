@@ -13,6 +13,7 @@
 /wp-content/upgrade/
 /wp-content/upgrade-temp-backup/
 /wp-content/debug.log
+/wp-content/plugins/updraftplus/
 *.log
 
 # --- Caches WordPress ---
@@ -32,3 +33,4 @@
 .DS_Store
 .idea/
 .vscode/
+
