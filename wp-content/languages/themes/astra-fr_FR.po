@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Themes - Astra package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-10-15 07:01:15+0000\n"
+"PO-Revision-Date: 2025-11-23 15:08:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.1\n"
+"X-Generator: GlotPress/4.0.3\n"
 "Language: fr\n"
 "Project-Id-Version: Themes - Astra\n"
 
@@ -753,17 +753,17 @@ msgctxt "Primary Menu: Custom Menu Text / HTML for Last Item in Menu"
 msgid "%astra%"
 msgstr "%astra%"
 
-#: inc/core/common-functions.php:1153
+#: inc/core/common-functions.php:1154
 msgctxt "Search Page Custom `When Results Not Found` Text"
 msgid "%astra%"
 msgstr "%astra%"
 
-#: inc/core/common-functions.php:1152
+#: inc/core/common-functions.php:1153
 msgctxt "Search Page Custom `When Results Found` Text"
 msgid "%astra%"
 msgstr "%astra%"
 
-#: inc/core/common-functions.php:985
+#: inc/core/common-functions.php:986
 msgctxt "Search Page Title: Heading - Text"
 msgid "%astra%"
 msgstr "%astra%"
@@ -928,15 +928,15 @@ msgctxt "Builder: Header HTML 7"
 msgid "%astra%"
 msgstr "%astra%"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:695
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:696
 msgid " review"
 msgstr " avis"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:696
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:697
 msgid " reviews"
 msgstr " avis"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:699
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:700
 msgid "<span class=\"count\">%1$s</span>"
 msgid_plural "<span class=\"count\">%1$s</span>"
 msgstr[0] "<span class=\"count\">%1$s</span>"
@@ -1022,7 +1022,7 @@ msgctxt "Header Builder: Account Widget - Logged Out View Text"
 msgid "%astra%"
 msgstr "%astra%"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:587
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:588
 msgctxt "Header Builder: Cart Widget - Cart Label"
 msgid "%astra%"
 msgstr "%astra%"
@@ -1032,17 +1032,17 @@ msgctxt "Primary Menu: Menu Label (Mobile Menu)"
 msgid "%astra%"
 msgstr "%astra%"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3563
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3564
 msgctxt "WooCommerce Cart: Cart Button Text"
 msgid "%astra%"
 msgstr "%astra%"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3668
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3669
 msgctxt "WooCommerce Single Product: Payments - Payment Title."
 msgid "%astra%"
 msgstr "%astra%"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:410
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:411
 msgctxt "WooCommerce Single Product: Shipping Text"
 msgid "%astra%"
 msgstr "%astra%"
@@ -8379,7 +8379,7 @@ msgstr "« Aucun » respecte la hiérarchie, la position « Derrière » n�
 msgid "'None' respects hierarchy; 'Behind' position is not applicable for single product page."
 msgstr "« Aucun » respecte la hiérarchie, la position « Derrière » n’est pas applicable pour la page d’un produit unique."
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:471
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:472
 msgid "This is a demo store for testing purposes &mdash; no orders shall be fulfilled."
 msgstr "Ceci est une boutique de démonstration à des fins de test, aucune commande ne sera honorée."
 
@@ -8786,7 +8786,7 @@ msgstr "Aucun résultat"
 msgid "Search..."
 msgstr "Recherche…"
 
-#: inc/core/common-functions.php:1417
+#: inc/core/common-functions.php:1418
 msgctxt "placeholder"
 msgid "Search..."
 msgstr "Rechercher…"
@@ -8978,22 +8978,22 @@ msgstr "Vous aimez %1$s ? Veuillez nous laisser une note %2$s. Nous apprécions
 msgid "Disable Banner Area"
 msgstr "Désactiver la zone de bannière"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:987
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:988
 #: inc/theme-update/astra-update-functions.php:366
 msgid "Visa"
 msgstr "Visa"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:995
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:996
 #: inc/theme-update/astra-update-functions.php:378
 msgid "Mastercard"
 msgstr "Mastercard"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:1003
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:1004
 #: inc/theme-update/astra-update-functions.php:390
 msgid "Amex"
 msgstr "Amex"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:1011
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:1012
 #: inc/theme-update/astra-update-functions.php:402
 msgid "Discover"
 msgstr "Discover"
@@ -9662,7 +9662,7 @@ msgstr "Conception 2"
 msgid "Design 1"
 msgstr "Conception 1"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:303
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:304
 msgid "Sale!"
 msgstr "Promo !"
 
@@ -9710,7 +9710,7 @@ msgstr "- quantité"
 msgid "Grayscale"
 msgstr "Niveaux de gris"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:977
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:978
 msgid "Guaranteed Safe Checkout"
 msgstr "Commande sécurisée garantie"
 
@@ -9770,11 +9770,11 @@ msgstr "Mise en page de colonne latérale pour les cours/leçons"
 msgid "Columns"
 msgstr "Colonnes"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:932
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:933
 msgid "& Free Shipping"
 msgstr "& livraison gratuite"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:937
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:938
 msgid "Proceed to checkout"
 msgstr "Passer à la commande"
 
@@ -9849,11 +9849,11 @@ msgstr "Texte de livraison"
 msgid "Button Width"
 msgstr "Largeur de bouton"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3524
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3525
 msgid "No products in the cart."
 msgstr "Aucun article dans le panier."
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3528
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3529
 msgid "Continue Shopping"
 msgstr "Continuer les achats"
 
@@ -9964,7 +9964,7 @@ msgstr "Réglages d’affichage"
 msgid "Note: To get design settings in action make sure to select Header Position other than None."
 msgstr "Note : Pour que les réglages de conception fonctionnent, assurez-vous de sélectionner une position d’en-tête différente de « Aucune »."
 
-#: inc/core/common-functions.php:1184
+#: inc/core/common-functions.php:1185
 msgid "Author name: "
 msgstr "Nom de l’auteur/autrice :"
 
@@ -11195,7 +11195,7 @@ msgid "Enable Cross-sells"
 msgstr "Activer les ventes croisées"
 
 #. translators: 1: number of products
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:860
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:861
 msgctxt "product categories"
 msgid "%1$s Product"
 msgid_plural "%1$s Products"
@@ -11677,81 +11677,81 @@ msgstr "Largeur"
 msgid "The parent menu should have a # link for the submenu to open on a link."
 msgstr "Le menu parent doit avoir un lien # pour que le sous-menu s’ouvre sur un lien."
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:401
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:402
 msgid "Browse:"
 msgstr "Parcourir :"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:402
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:403
 msgctxt "breadcrumbs aria label"
 msgid "Breadcrumbs"
 msgstr "Breadcrumbs"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:404
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:405
 msgid "404 Not Found"
 msgstr "404 - Introuvable"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:405
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:406
 msgid "Archives"
 msgstr "Archives"
 
 #. Translators: %s is the search query.
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:407
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:408
 msgid "Search results for: %s"
 msgstr "Résultats de recherche pour : %s"
 
 #. Translators: %s is the page number.
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:409
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:410
 msgid "Page %s"
 msgstr "Page %s"
 
 #. Translators: %s is the page number.
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:411
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:412
 msgid "Comment Page %s"
 msgstr "Page de commentaire %s"
 
 #. Translators: Minute archive title. %s is the minute time format.
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:413
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:414
 msgid "Minute %s"
 msgstr "Minute %s"
 
 #. Translators: Weekly archive title. %s is the week date format.
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:415
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:416
 msgid "Week %s"
 msgstr "Semaine %s"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:890
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:891
 msgctxt "minute archives time format"
 msgid "i"
 msgstr "i"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:907
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:908
 msgctxt "hour archives time format"
 msgid "g a"
 msgstr "g a"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:923
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:952
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:980
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:1007
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:1348
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:924
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:953
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:981
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:1008
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:1349
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:924
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:981
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:1352
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:925
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:982
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:1353
 msgctxt "monthly archives date format"
 msgid "F"
 msgstr "F"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:925
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:1356
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:926
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:1357
 msgctxt "daily archives date format"
 msgid "j"
 msgstr "j"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:953
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:954
 msgctxt "weekly archives date format"
 msgid "W"
 msgstr "W"
@@ -11798,7 +11798,7 @@ msgstr "Page des derniers articles ou lorsqu’une page est sélectionnée comme
 msgid "Enable on Blog / Posts Page?"
 msgstr "Activer sur le blog / la page des articles ?"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:873
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:874
 msgctxt "minute and hour archives time format"
 msgid "g:i a"
 msgstr "G\\hi"
@@ -12863,7 +12863,7 @@ msgid "Short Description"
 msgstr "Description courte"
 
 #: inc/compatibility/edd/class-astra-edd.php:101
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:560
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:561
 #: inc/compatibility/woocommerce/customizer/class-astra-customizer-register-woo-section.php:52
 #: inc/core/builder/class-astra-builder-helper.php:852
 #: inc/core/builder/class-astra-builder-helper.php:862
@@ -12877,22 +12877,22 @@ msgstr "Panier"
 msgid "Primary Header"
 msgstr "En-tête principal"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:361
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:1201
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:362
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:1202
 msgid "WooCommerce Sidebar"
 msgstr "Colonne latérale WooCommerce"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:1215
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:1216
 msgid "Product Sidebar"
 msgstr "Colonne latérale de produit"
 
 #: inc/compatibility/edd/class-astra-edd.php:921
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:363
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:1203
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:364
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:1204
 msgid "This sidebar will be used on Product archive, Cart, Checkout and My Account pages."
 msgstr "Cette colonne latérale sera utilisée sur les pages d’archives de produit, « panier », « commande » et « mon compte »."
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:1217
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:1218
 msgid "This sidebar will be used on Single Product page."
 msgstr "Cette colonne latérale sera utilisée sur la page des produits seuls."
 
@@ -12900,12 +12900,12 @@ msgstr "Cette colonne latérale sera utilisée sur la page des produits seuls."
 msgid "View your shopping cart"
 msgstr "Voir votre panier"
 
-#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:403
-#: inc/core/common-functions.php:1065
+#: inc/addons/breadcrumbs/class-astra-breadcrumb-trail.php:404
+#: inc/core/common-functions.php:1066
 msgid "Home"
 msgstr "Accueil"
 
-#: inc/core/common-functions.php:1071
+#: inc/core/common-functions.php:1072
 msgid "This page doesn't seem to exist."
 msgstr "Cette page ne semble pas exister."
 
@@ -13135,7 +13135,7 @@ msgstr "Ultra Gras 900"
 
 #: admin/includes/class-astra-menu.php:180
 #: admin/includes/class-astra-menu.php:181
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3608
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3609
 #: admin/assets/build/dashboard-app.js:1
 msgid "Customize"
 msgstr "Personnaliser"
@@ -13391,7 +13391,7 @@ msgstr "1 commentaire"
 msgid "% Comments"
 msgstr "% commentaires"
 
-#: inc/customizer/class-astra-customizer-sanitizes.php:511
+#: inc/customizer/class-astra-customizer-sanitizes.php:517
 msgid "Enter valid email address!"
 msgstr "Saisissez une adresse de messagerie valide !"
 

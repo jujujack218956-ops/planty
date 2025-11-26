@@ -113,14 +113,167 @@ Updated: 2025-11-04 11:01:53
   background-color: #C02E44;
 }
 
-/* Formulaire "Nous contacter" */
+/* =============== FORMULAIRE NOUS CONTACTER =============== */
+/* Conteneur du formulaire - appliqué au widget Elementor */
 .form_contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Syne', sans-serif;
   width: 100%;
+  font-family: 'Syne', sans-serif;
   font-size: 20px;
+}
+
+/* Formulaire CF7 - structure en colonne centrée */
+.form_contact .wpcf7-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Centre tous les enfants horizontalement */
+}
+
+/* Labels (Nom, E-mail, Message) - alignés à gauche des champs */
+.form_contact .wpcf7-form label {
+  width: 100%;
+  max-width: none;
+  text-align: left;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Champs de saisie (input et textarea) */
+.form_contact .wpcf7-form input[type="text"],
+.form_contact .wpcf7-form input[type="email"],
+.form_contact .wpcf7-form textarea {
+  width: 100%;
+  max-width: none;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Zone de texte Message - hauteur spécifique */
+.form_contact .wpcf7-form textarea {
+  min-height: 150px;
+}
+
+/* Paragraphe contenant le bouton - pour centrage */
+.form_contact .wpcf7-form p {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+/* Bouton Envoyer - centré */
+.form_contact .wpcf7-form input[type="submit"] {
+  width: auto;
+  padding: 15px 50px;
+  background-color: #DC9F96;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Syne', sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+
+}
+
+/* Hover du bouton */
+.form_contact .wpcf7-form input[type="submit"]:hover {
+  color: #C02E44;
+}
+
+/* =============== FORMULAIRE COMMANDER (2 COLONNES) =============== */
+
+/* Conteneur des deux colonnes */
+.form-two-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  /* Espace entre les colonnes */
+  width: 100%;
+  max-width: 1000px;
+  /* Ajuste selon ta maquette */
+  margin: 0 auto 30px;
+}
+
+/* Style des colonnes */
+.column-left,
+.column-right {
+  flex: 1;
+  /* 50/50 */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Titres des colonnes (Vos informations / Livraison) */
+.column-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 30px;
+  /* Ajuste selon ta maquette */
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+/* Labels des champs */
+.form-two-columns label {
+  font-family: 'Syne', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Champs de saisie */
+.form-two-columns input[type="text"],
+.form-two-columns input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 7px;
+  box-sizing: border-box;
+  font-family: 'Syne', sans-serif;
+  font-size: 16px;
+}
+
+/* Conteneur du bouton submit */
+.submit-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Bouton Commander */
+.submit-container input[type="submit"] {
+  padding: 15px 50px;
+  background-color: #E0B9B4;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  font-family: 'Syne', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+/* Hover du bouton */
+.submit-container input[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+/* Responsive : une seule colonne sur mobile */
+@media (max-width: 768px) {
+  .form-two-columns {
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 
 /* ===============FOOTER============== */

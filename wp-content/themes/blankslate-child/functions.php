@@ -61,11 +61,12 @@ add_action('wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10);
 
 // END ENQUEUE PARENT ACTION
 
-// Masquer le lien Admin si l'utilisateur n'est pas connecté
+// Afficher le lien Admin si l'utilisateur est connecté
 function planty_hide_admin_link($items, $args)
 {
     /* Fonction personnalisée pour le projet Planty
        But : Afficher le bouton "Admin" uniquement aux utilisateurs connectés
+       
        Paramètres reçus automatiquement par le hook :
        - $items : tableau des éléments du menu
        - $args : arguments du menu (contient theme_location, etc.) */
@@ -74,29 +75,42 @@ function planty_hide_admin_link($items, $args)
         /* Vérifie qu'on modifie bien le menu principal
            Évite de toucher aux autres menus du site (footer, etc.) */
 
-        if (!is_user_logged_in()) {
+        if (is_user_logged_in()) {
             /* is_user_logged_in() : fonction WordPress qui retourne true/false
-               Si l'utilisateur N'EST PAS connecté, on entre dans cette condition */
+               Si l'utilisateur EST connecté, on ne fait rien et on retourne le menu complet*/
 
-            // Parcourir les éléments du menu
-            foreach ($items as $key => $item) {
-                /* Boucle sur tous les éléments du menu
+            return $items;
+            /* Retourne le menu complet avec le lien "Admin" visible
+               Le reste du code n'est pas exécuté grâce au return */
+        }
+
+        // Si l'utilisateur n'est pas connecté, on arrive jusqu'ici
+        //Parcourir les éléments du menu pour retirer "Admin"
+        foreach ($items as $key => $item) {
+            /* Boucle sur tous les éléments du menu
                    $key : position de l'élément
                    $item : objet contenant les données de l'élément (title, url, etc.) */
 
-                // Supprimer l'élément "Admin"
-                if (strtolower($item->title) === 'admin') {
-                    /* strtolower() : convertit en minuscules pour comparaison insensible à la casse
+            // Supprimer l'élément "Admin"
+            if (strtolower($item->title) === 'admin') {
+                /* strtolower() : convertit en minuscules pour comparaison insensible à la casse
                        Compare le titre de l'élément avec 'admin'
                        === : comparaison stricte (type ET valeur) */
 
-                    unset($items[$key]);
-                    /* unset() : supprime l'élément du tableau
+                unset($items[$key]);
+                /* unset() : supprime l'élément du tableau
                        L'élément "Admin" est retiré du menu pour les visiteurs non connectés */
-                }
             }
         }
     }
     return $items;
+    /* Retourne le tableau des éléments de menu modifié (sans "Admin")
+       WordPress utilisera ce tableau pour afficher le menu */
 }
 add_filter('wp_nav_menu_objects', 'planty_hide_admin_link', 10, 2);
+/* Hook WordPress : filtre les objets du menu de navigation
+   Paramètres :
+   - 'wp_nav_menu_objects' : nom du filtre (s'applique aux menus)
+   - 'planty_hide_admin_link' : fonction à exécuter
+   - 10 : priorité d'exécution
+   - 2 : nombre de paramètres acceptés par la fonction ($items et $args) */
