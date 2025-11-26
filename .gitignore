@@ -24,6 +24,8 @@
 # --- Secrets locaux ---
 /wp-config.php
 /.env
+/.env.local
+*.sql
 
 # --- Dépendances éventuelles ---
 /node_modules/
