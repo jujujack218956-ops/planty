@@ -134,7 +134,7 @@ Updated: 2025-11-04 11:01:53
   width: 100%;
   max-width: none;
   text-align: left;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   display: block;
 }
 
@@ -147,7 +147,7 @@ Updated: 2025-11-04 11:01:53
   padding: 10px;
   margin: 10px 0 20px 0;
   border: none;
-  border-radius: 5px;
+  border-radius: 7px;
   box-sizing: border-box;
 }
 
@@ -185,18 +185,115 @@ Updated: 2025-11-04 11:01:53
   color: #C02E44;
 }
 
+/* =============== SELECTION QUANTITES COMMANDE =============== */
+
+/* Conteneur principal de la section commande */
+.form-images-commande {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+/* Titre "Votre commande" */
+.commande-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+/* Grille des 4 produits */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 4 colonnes égales */
+  gap: 30px;
+  /* Espace entre les produits */
+  margin-bottom: 40px;
+}
+
+/* Chaque produit */
+.product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Images des produits */
+.product-item img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 15px;
+  object-fit: contain;
+}
+
+/* Champs de saisie des quantités */
+.saisie-commande {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-family: 'Syne', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  border: 2px solid #FFFFFF;
+  background-color: #FFFFFF;
+  border-radius: 7px;
+  padding: 0;
+  -moz-appearance: textfield;
+  appearance: none;
+  /*Firefox*/
+}
+
+.saisie-commande::-webkit-outer-spin-button,
+.saisie-commande::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  /* Masquer les flèches sur Chrome, Safari, Edge, Opera */
+}
+
+/* Hover sur les champs */
+.saisie-commande:hover {
+  border-color: #E0B9B4;
+}
+
+/* Focus sur les champs */
+.saisie-commande:focus {
+  outline: none;
+  border-color: #E0B9B4;
+}
+
+/* Responsive : 2 colonnes sur tablette */
+@media (max-width: 968px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+/* Responsive : 1 colonne sur mobile */
+@media (max-width: 576px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
 /* =============== FORMULAIRE COMMANDER (2 COLONNES) =============== */
 
 /* Conteneur des deux colonnes */
 .form-two-columns {
   display: flex;
   justify-content: space-between;
-  gap: 40px;
+  gap: 100px;
   /* Espace entre les colonnes */
   width: 100%;
-  max-width: 1000px;
-  /* Ajuste selon ta maquette */
+  max-width: 100%;
   margin: 0 auto 30px;
+  border-top: #ffffff 1px solid;
 }
 
 /* Style des colonnes */
@@ -208,15 +305,31 @@ Updated: 2025-11-04 11:01:53
   flex-direction: column;
 }
 
+/* Positionnement relatif pour la colonne gauche */
+.column-left {
+  position: relative;
+}
+
+/* Ligne de séparation verticale entre les colonnes */
+.column-left::after {
+  content: '';
+  position: absolute;
+  right: -50px;
+  /* Moitié du gap (100px / 2) */
+  top: 50px;
+  bottom: 20px;
+  width: 1px;
+  background-color: #FFFFFF;
+}
+
 /* Titres des colonnes (Vos informations / Livraison) */
 .column-title {
   font-family: 'Syne', sans-serif;
   font-size: 30px;
-  /* Ajuste selon ta maquette */
   font-weight: 700;
   color: #FFFFFF;
-  margin-bottom: 20px;
-  margin-top: 0;
+  margin-bottom: 30px;
+  margin-top: 50px;
 }
 
 /* Labels des champs */
@@ -233,8 +346,9 @@ Updated: 2025-11-04 11:01:53
 .form-two-columns input[type="text"],
 .form-two-columns input[type="email"] {
   width: 100%;
-  padding: 10px;
+  padding: 25px;
   margin-bottom: 20px;
+  margin-top: 10px;
   border: none;
   border-radius: 7px;
   box-sizing: border-box;
@@ -242,12 +356,18 @@ Updated: 2025-11-04 11:01:53
   font-size: 16px;
 }
 
+/* Masquer le spinner de CF7 qui décale le bouton */
+.submit-container .wpcf7-spinner {
+  display: none;
+}
+
 /* Conteneur du bouton submit */
 .submit-container {
   width: 100%;
   display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0 50px;
 }
 
 /* Bouton Commander */

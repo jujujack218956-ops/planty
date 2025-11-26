@@ -1,0 +1,445 @@
+0000.000 (0) Opened log file at time: Wed, 26 Nov 2025 14:02:44 +0000 on http://localhost:10008
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.9 WP: 6.8.3 PHP: 8.2.27 (fpm-fcgi, Darwin macstudio-de-juliette-1.home 25.1.0 Darwin Kernel Version 25.1.0: Mon Oct 20 19:33:00 PDT 2025; root:xnu-12377.41.6~2/RELEASE_ARM64_T6020 arm64) MySQL: 8.0.35 (max packet size=1073741824) WPLANG: fr_FR Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 6.3M | 8M) multisite: N openssl: OpenSSL 3.4.1 11 Feb 2025 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 125712 MB
+0000.002 (0) Tasks: Backup files: 1 (schedule: every2hours) Backup DB:  (schedule: everyhour)
+0000.003 (0) Processed schedules. Combining jobs from co-inciding events. Tasks now: Backup files: 1 Backup DB: 1
+0000.003 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1764151380, seconds_ago=14384)
+0000.004 (0) Set semaphore last lock (fd) time to 2025-11-26 14:02:44
+0000.004 (0) Semaphore lock (fd) complete
+0000.006 (0) Backup run: resumption=0, nonce=ae0534002b00, file_nonce=ae0534002b00 begun at=1764165764 (0s ago), job type=backup
+0000.006 (0) Scheduling a resumption (1) after 300 seconds (1764166064) in case this run gets aborted
+0000.007 (0) Checking if we have a zip executable available
+0000.008 (0) Testing: /usr/bin/zip
+0000.017 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.018 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.018 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.018 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.018 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.026 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.027 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.027 (0) Working binary zip found: /usr/bin/zip
+0000.028 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.028 (0) Creation of backups of directories: beginning
+0000.029 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.252 (0) Total entities for the zip file: 1248 directories, 8092 files (0 skipped as non-modified), 118.5 MB
+0000.254 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.256 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.258 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.259 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.261 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.263 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.264 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.266 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.267 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.269 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.269 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.5 MB, 8092 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.591 (0) backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: size is now: 5.80 MB
+0000.593 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 1100 files added (on-disk size: 5967 KB)
+0000.595 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 1200 files added (on-disk size: 5967 KB)
+0000.596 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 1300 files added (on-disk size: 5967 KB)
+0000.598 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 1400 files added (on-disk size: 5967 KB)
+0000.600 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 1500 files added (on-disk size: 5967 KB)
+0000.601 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 1600 files added (on-disk size: 5967 KB)
+0000.603 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 1700 files added (on-disk size: 5967 KB)
+0000.604 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 1800 files added (on-disk size: 5967 KB)
+0000.606 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 1900 files added (on-disk size: 5967 KB)
+0000.608 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 2000 files added (on-disk size: 5967 KB)
+0000.608 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.4 MB, 8092 files batched, 1001 (2002) added so far); re-opening (prior size: 5967 KB)
+0000.905 (0) backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: size is now: 9.70 MB
+0000.908 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 2100 files added (on-disk size: 9966.6 KB)
+0000.910 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 2200 files added (on-disk size: 9966.6 KB)
+0000.912 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 2300 files added (on-disk size: 9966.6 KB)
+0000.914 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 2400 files added (on-disk size: 9966.6 KB)
+0000.915 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 2500 files added (on-disk size: 9966.6 KB)
+0000.917 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 2600 files added (on-disk size: 9966.6 KB)
+0000.919 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 2700 files added (on-disk size: 9966.6 KB)
+0000.921 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 2800 files added (on-disk size: 9966.6 KB)
+0000.922 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 2900 files added (on-disk size: 9966.6 KB)
+0000.924 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 3000 files added (on-disk size: 9966.6 KB)
+0000.924 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.6 MB, 8092 files batched, 1001 (3003) added so far); re-opening (prior size: 9966.6 KB)
+0001.112 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 3100 files added (on-disk size: 10940.7 KB)
+0001.114 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 3200 files added (on-disk size: 10940.7 KB)
+0001.116 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 3300 files added (on-disk size: 10940.7 KB)
+0001.117 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 3400 files added (on-disk size: 10940.7 KB)
+0001.119 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 3500 files added (on-disk size: 10940.7 KB)
+0001.121 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 3600 files added (on-disk size: 10940.7 KB)
+0001.122 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 3700 files added (on-disk size: 10940.7 KB)
+0001.124 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 3800 files added (on-disk size: 10940.7 KB)
+0001.125 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 3900 files added (on-disk size: 10940.7 KB)
+0001.127 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 4000 files added (on-disk size: 10940.7 KB)
+0001.127 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.6 MB, 8092 files batched, 1001 (4004) added so far); re-opening (prior size: 10940.7 KB)
+0001.318 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 4100 files added (on-disk size: 12195.2 KB)
+0001.320 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 4200 files added (on-disk size: 12195.2 KB)
+0001.322 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 4300 files added (on-disk size: 12195.2 KB)
+0001.323 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 4400 files added (on-disk size: 12195.2 KB)
+0001.325 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 4500 files added (on-disk size: 12195.2 KB)
+0001.326 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 4600 files added (on-disk size: 12195.2 KB)
+0001.328 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 4700 files added (on-disk size: 12195.2 KB)
+0001.330 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 4800 files added (on-disk size: 12195.2 KB)
+0001.331 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 4900 files added (on-disk size: 12195.2 KB)
+0001.333 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 5000 files added (on-disk size: 12195.2 KB)
+0001.333 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.1 MB, 8092 files batched, 1001 (5005) added so far); re-opening (prior size: 12195.2 KB)
+0001.645 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 5100 files added (on-disk size: 14602.5 KB)
+0001.647 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 5200 files added (on-disk size: 14602.5 KB)
+0001.649 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 5300 files added (on-disk size: 14602.5 KB)
+0001.651 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 5400 files added (on-disk size: 14602.5 KB)
+0001.652 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 5500 files added (on-disk size: 14602.5 KB)
+0001.654 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 5600 files added (on-disk size: 14602.5 KB)
+0001.656 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 5700 files added (on-disk size: 14602.5 KB)
+0001.657 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 5800 files added (on-disk size: 14602.5 KB)
+0001.659 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 5900 files added (on-disk size: 14602.5 KB)
+0001.660 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 8092 files batched, 985 (5990) added so far); re-opening (prior size: 14602.5 KB)
+0002.239 (0) backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: size is now: 20.00 MB
+0002.241 (0) A useful amount of data was added after this amount of zip processing: 1.5 s (normalised: 1.5 s, rate: 16601.9 KB/s)
+0002.241 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.544704914093, normalised_time=1.5419875657049, max_time=2.2406871318817, data points known=1, old_max_bytes=26214400, new_max_bytes=102002378)
+0002.242 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 6000 files added (on-disk size: 20455.3 KB)
+0002.244 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 6100 files added (on-disk size: 20455.3 KB)
+0002.245 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 6200 files added (on-disk size: 20455.3 KB)
+0002.247 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 6300 files added (on-disk size: 20455.3 KB)
+0002.248 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 6400 files added (on-disk size: 20455.3 KB)
+0002.250 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 6500 files added (on-disk size: 20455.3 KB)
+0002.252 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 6600 files added (on-disk size: 20455.3 KB)
+0002.253 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 6700 files added (on-disk size: 20455.3 KB)
+0002.255 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 6800 files added (on-disk size: 20455.3 KB)
+0002.257 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 6900 files added (on-disk size: 20455.3 KB)
+0002.258 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (33.7 MB, 8092 files batched, 1001 (6991) added so far); re-opening (prior size: 20455.3 KB)
+0003.164 (0) backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: size is now: 30.40 MB
+0003.166 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 7000 files added (on-disk size: 31131 KB)
+0003.167 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 7100 files added (on-disk size: 31131 KB)
+0003.169 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 7200 files added (on-disk size: 31131 KB)
+0003.171 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 7300 files added (on-disk size: 31131 KB)
+0003.172 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 7400 files added (on-disk size: 31131 KB)
+0003.174 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 7500 files added (on-disk size: 31131 KB)
+0003.176 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 7600 files added (on-disk size: 31131 KB)
+0003.177 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 7700 files added (on-disk size: 31131 KB)
+0003.179 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 7800 files added (on-disk size: 31131 KB)
+0003.180 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 7900 files added (on-disk size: 31131 KB)
+0003.182 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.2 MB, 8092 files batched, 1001 (7992) added so far); re-opening (prior size: 31131 KB)
+0003.842 (0) backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: size is now: 36.70 MB
+0003.844 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.tmp: 8000 files added (on-disk size: 37601.7 KB)
+0003.934 (0) Creating zip file manifest (backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.list-temp.tmp)
+0003.947 (0) Successfully created zip file manifest (size: 754721)
+0004.265 (0) Created plugins zip (0) - 37707.5 KB in 4.2 s (8902.6 KB/s) (sha1: eea091976d7145b8ebd29c213c0dd47f894cee8e, sha256: f451f91a0da88496b931102f9023fa246b003713b3c9b0b8a1b076c24a3de5fc)
+0004.269 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0004.269 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1e5661594ea0601caf9425a2dc58c3da)
+0006.291 (0) Google Drive: quota usage: used=607.4 MB, total=15360 MB, available=14752.6 MB
+0006.293 (0) Google Drive: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip: Attempting to upload to Google Drive (into folder id: 1_QEwkfVEdZse3OPbNXOfdlSWYwmJMyLe)
+0007.709 (0) Googledrive chunked upload: 2.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 7.7 / 20)
+0008.247 (0) Googledrive chunked upload: 8.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 7.7 / 20)
+0015.830 (0) Googledrive chunked upload: 19 % uploaded (7340032)
+0016.401 (0) Googledrive chunked upload: 29.9 % uploaded (11534336 - increasing chunk size to 8192 KB - memory usage: 7.7 / 20)
+0031.335 (0) Googledrive chunked upload: 51.6 % uploaded (19922944)
+0046.354 (0) Googledrive chunked upload: 73.3 % uploaded (28311552)
+0061.656 (0) Googledrive chunked upload: 95 % uploaded (36700160)
+0063.031 (0) Googledrive chunked upload: 100 % uploaded (36700160)
+0063.033 (0) Google Drive: OK: Archive backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip uploaded in 56.74 seconds
+0063.034 (0) Recording as successfully uploaded: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip
+0063.036 (0) Deleting local file: backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip: OK
+0063.038 (0) Beginning creation of dump of themes (split every: 400 MB)
+0063.070 (0) Total entities for the zip file: 336 directories, 764 files (0 skipped as non-modified), 23.7 MB
+0063.072 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0063.074 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0063.076 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0063.077 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0063.079 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0063.080 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0063.082 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0063.726 (0) backup_2025-11-26-1502_planty_ae0534002b00-themes.zip.tmp: size is now: 7.70 MB
+0063.731 (0) Creating zip file manifest (backup_2025-11-26-1502_planty_ae0534002b00-themes.zip.list-temp.tmp)
+0063.733 (0) Successfully created zip file manifest (size: 63094)
+0063.801 (0) Created themes zip (0) - 7930.1 KB in 0.8 s (10410.1 KB/s) (sha1: e7942322b69c4563ef4b8265b1e0580fba0726e7, sha256: fa126f6b59ff062edc6aeae66b7b8433e7de54428a27ab386d546e2027682ed5)
+0063.803 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0063.803 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1e5661594ea0601caf9425a2dc58c3da)
+0064.185 (0) Google Drive: quota usage: used=644.2 MB, total=15360 MB, available=14715.8 MB
+0064.187 (0) Google Drive: backup_2025-11-26-1502_planty_ae0534002b00-themes.zip: Attempting to upload to Google Drive (into folder id: 1_QEwkfVEdZse3OPbNXOfdlSWYwmJMyLe)
+0066.813 (0) Googledrive chunked upload: 12.9 % uploaded (1048576)
+0068.603 (0) Googledrive chunked upload: 25.8 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 6.7 / 18)
+0069.003 (0) Googledrive chunked upload: 51.7 % uploaded (4194304 - increasing chunk size to 4096 KB - memory usage: 6.7 / 18)
+0076.740 (0) Googledrive chunked upload: 100 % uploaded (4194304)
+0076.743 (0) Google Drive: OK: Archive backup_2025-11-26-1502_planty_ae0534002b00-themes.zip uploaded in 12.56 seconds
+0076.744 (0) Recording as successfully uploaded: backup_2025-11-26-1502_planty_ae0534002b00-themes.zip
+0076.746 (0) Deleting local file: backup_2025-11-26-1502_planty_ae0534002b00-themes.zip: OK
+0076.747 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots,wp-staging
+0076.747 (0) Looking for candidates to backup in: /Users/juliette/Local Sites/planty/app/public/wp-content/uploads
+0076.748 (0) finding files: 2025: adding to list (1)
+0076.748 (0) finding files: astra-docs: adding to list (2)
+0076.748 (0) finding files: wpcf7_uploads: adding to list (3)
+0076.748 (0) finding files: wpforms: adding to list (4)
+0076.749 (0) finding files: elementor: adding to list (5)
+0076.749 (0) finding files: beans: adding to list (6)
+0076.749 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0076.755 (0) Total entities for the zip file: 15 directories, 106 files (0 skipped as non-modified), 17.2 MB
+0076.757 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0076.891 (0) backup_2025-11-26-1502_planty_ae0534002b00-uploads.zip.tmp: size is now: 11.30 MB
+0076.892 (0) Creating zip file manifest (backup_2025-11-26-1502_planty_ae0534002b00-uploads.zip.list-temp.tmp)
+0076.893 (0) Successfully created zip file manifest (size: 5635)
+0076.991 (0) Created uploads zip (0) - 11558.8 KB in 0.2 s (48051.8 KB/s) (sha1: 0758ef40b1fc0629cd990395bf8c31a9a7b3d056, sha256: a7226276f0dadb501b1af6fe790c05053991a12a742ab8c53e7279c4420e2a8b)
+0076.992 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0076.992 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1e5661594ea0601caf9425a2dc58c3da)
+0077.384 (0) Google Drive: quota usage: used=644.2 MB, total=15360 MB, available=14715.8 MB
+0077.386 (0) Google Drive: backup_2025-11-26-1502_planty_ae0534002b00-uploads.zip: Attempting to upload to Google Drive (into folder id: 1_QEwkfVEdZse3OPbNXOfdlSWYwmJMyLe)
+0078.349 (0) Googledrive chunked upload: 8.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 6.6 / 18)
+0078.719 (0) Googledrive chunked upload: 26.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 6.6 / 18)
+0079.309 (0) Googledrive chunked upload: 62 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 6.6 / 18)
+0081.219 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0081.221 (0) Google Drive: OK: Archive backup_2025-11-26-1502_planty_ae0534002b00-uploads.zip uploaded in 3.83 seconds
+0081.222 (0) Recording as successfully uploaded: backup_2025-11-26-1502_planty_ae0534002b00-uploads.zip
+0081.223 (0) Deleting local file: backup_2025-11-26-1502_planty_ae0534002b00-uploads.zip: OK
+0081.225 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0081.225 (0) Does not exist: /Users/juliette/Local Sites/planty/app/public/wp-content/mu-plugins
+0081.225 (0) There are no mu-plugins to backup. Will not raise an error.
+0081.225 (0) mu-plugins: create_zip returned an error
+0081.226 (0) Beginning backup of other directories found in the content directory (index: 0)
+0081.226 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0081.226 (0) Looking for candidates to backup in: /Users/juliette/Local Sites/planty/app/public/wp-content
+0081.226 (0) finding files: upgrade: skipping: excluded by options
+0081.226 (0) finding files: .DS_Store: adding to list (1)
+0081.227 (0) finding files: index.php: adding to list (2)
+0081.227 (0) finding files: upgrade-temp-backup: adding to list (3)
+0081.227 (0) finding files: plugins: skipping: this is the plugins directory
+0081.227 (0) finding files: uploads: skipping: this is the uploads directory
+0081.227 (0) finding files: updraft: skipping: this is the updraft directory
+0081.227 (0) finding files: languages: adding to list (4)
+0081.228 (0) finding files: themes: skipping: this is the themes directory
+0081.232 (0) Total entities for the zip file: 5 directories, 176 files (0 skipped as non-modified), 8.1 MB
+0081.234 (0) Zip: backup_2025-11-26-1502_planty_ae0534002b00-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0081.483 (0) backup_2025-11-26-1502_planty_ae0534002b00-others.zip.tmp: size is now: 2.30 MB
+0081.484 (0) Creating zip file manifest (backup_2025-11-26-1502_planty_ae0534002b00-others.zip.list-temp.tmp)
+0081.485 (0) Successfully created zip file manifest (size: 12233)
+0081.506 (0) Created others zip (0) - 2379 KB in 0.3 s (8554.2 KB/s) (sha1: ba366e06b05b8752153771ec0a429018b12c2804, sha256: d61180b7bb81b1af6673710d83b271e2b90960d544885cbb781bf82cdbc05799)
+0081.508 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0081.508 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1e5661594ea0601caf9425a2dc58c3da)
+0081.916 (0) Google Drive: quota usage: used=663.2 MB, total=15360 MB, available=14696.8 MB
+0081.918 (0) Google Drive: backup_2025-11-26-1502_planty_ae0534002b00-others.zip: Attempting to upload to Google Drive (into folder id: 1_QEwkfVEdZse3OPbNXOfdlSWYwmJMyLe)
+0084.390 (0) Googledrive chunked upload: 43 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 6.6 / 18)
+0087.899 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0087.901 (0) Google Drive: OK: Archive backup_2025-11-26-1502_planty_ae0534002b00-others.zip uploaded in 5.98 seconds
+0087.902 (0) Recording as successfully uploaded: backup_2025-11-26-1502_planty_ae0534002b00-others.zip
+0087.903 (0) Deleting local file: backup_2025-11-26-1502_planty_ae0534002b00-others.zip: OK
+0087.905 (0) Saving backup status to database (elements: 8)
+0087.906 (0) Beginning creation of database dump (WordPress DB)
+0087.907 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0087.911 (0) Table wp_options: Total expected rows (via COUNT): 328
+0087.911 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.927 (0) Table wp_options: Rows added in this batch (next record: 2317): 324 (uncompressed bytes in this segment=967448) in 0.02 seconds
+0087.929 (0) Table wp_options: finishing file(s) (2, 157 KB)
+0087.931 (0) Table wp_users: Total expected rows (via COUNT): 1
+0087.931 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.931 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1569) in 0.00 seconds
+0087.932 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0087.934 (0) Table wp_usermeta: Total expected rows (via COUNT): 31
+0087.934 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.935 (0) Table wp_usermeta: Rows added in this batch (next record: 31): 31 (uncompressed bytes in this segment=3320) in 0.00 seconds
+0087.936 (0) Table wp_usermeta: finishing file(s) (2, 1.6 KB)
+0087.938 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 44
+0087.938 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.939 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 94): 44 (uncompressed bytes in this segment=20584) in 0.00 seconds
+0087.941 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2.2 KB)
+0087.942 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0087.942 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=622) in 0.00 seconds
+0087.944 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0087.945 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0087.945 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.946 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=727) in 0.00 seconds
+0087.947 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0087.948 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 118
+0087.948 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.949 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 130): 118 (uncompressed bytes in this segment=10693) in 0.00 seconds
+0087.950 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.5 KB)
+0087.953 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0087.953 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.00 seconds
+0087.955 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0087.956 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0087.956 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.957 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2402) in 0.00 seconds
+0087.958 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0087.960 (0) Table wp_links: Total expected rows (via COUNT): 0
+0087.960 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1496) in 0.00 seconds
+0087.961 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0087.974 (0) Table wp_postmeta: Total expected rows (via COUNT): 1284
+0087.974 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.985 (0) Table wp_postmeta: Rows added in this batch (next record: 1812): 1284 (uncompressed bytes in this segment=1528613) in 0.02 seconds
+0087.987 (0) Table wp_postmeta: finishing file(s) (2, 48.3 KB)
+0087.990 (0) Table wp_posts: Total expected rows (via COUNT): 277
+0087.990 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.995 (0) Table wp_posts: Rows added in this batch (next record: 312): 277 (uncompressed bytes in this segment=420863) in 0.01 seconds
+0087.997 (0) Table wp_posts: finishing file(s) (2, 30.4 KB)
+0087.998 (0) Table wp_term_relationships: Total expected rows (approximate): 5
+0087.999 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 5 (uncompressed bytes in this segment=742) in 0.00 seconds
+0088.000 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0088.001 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 3
+0088.002 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0088.002 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=1016) in 0.00 seconds
+0088.004 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0088.006 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0088.006 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=694) in 0.00 seconds
+0088.008 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0088.009 (0) Table wp_terms: Total expected rows (via COUNT): 3
+0088.009 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0088.010 (0) Table wp_terms: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=862) in 0.00 seconds
+0088.011 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0088.012 (0) Table wp_e_events: Total expected rows (via COUNT): 3
+0088.013 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0088.013 (0) Table wp_e_events: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1184) in 0.00 seconds
+0088.014 (0) Table wp_e_events: finishing file(s) (2, 0.5 KB)
+0088.016 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+0088.017 (0) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=736) in 0.00 seconds
+0088.018 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0088.020 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0088.021 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=731) in 0.00 seconds
+0088.022 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0088.023 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0088.024 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1958) in 0.00 seconds
+0088.025 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0088.027 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 10
+0088.027 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0088.028 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 20): 10 (uncompressed bytes in this segment=1418) in 0.00 seconds
+0088.029 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.6 KB)
+0088.029 (0) PHP event: code E_WARNING: filemtime(): stat failed for /Users/juliette/Local Sites/planty/app/public/wp-content/updraft/backup_2025-11-26-1502_planty_ae0534002b00-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0088.030 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_options.table.tmpr2318.gz (1/21/fopen): adding to final database dump
+0088.031 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_options.table.gz (2/21/fopen): adding to final database dump
+0088.031 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_users.table.tmpr2.gz (3/21/fopen): adding to final database dump
+0088.032 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_users.table.gz (4/21/fopen): adding to final database dump
+0088.032 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_usermeta.table.tmpr32.gz (5/21/fopen): adding to final database dump
+0088.032 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_usermeta.table.gz (6/21/fopen): adding to final database dump
+0088.032 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_actionscheduler_actions.table.tmpr95.gz (7/21/fopen): adding to final database dump
+0088.032 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_actionscheduler_actions.table.gz (8/21/fopen): adding to final database dump
+0088.032 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/21/fopen): adding to final database dump
+0088.033 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_actionscheduler_claims.table.gz (10/21/fopen): adding to final database dump
+0088.033 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/21/fopen): adding to final database dump
+0088.033 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_actionscheduler_groups.table.gz (12/21/fopen): adding to final database dump
+0088.033 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_actionscheduler_logs.table.tmpr131.gz (13/21/fopen): adding to final database dump
+0088.033 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_actionscheduler_logs.table.gz (14/21/fopen): adding to final database dump
+0088.034 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_commentmeta.table.tmpr0.gz (15/21/fopen): adding to final database dump
+0088.034 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_commentmeta.table.gz (16/21/fopen): adding to final database dump
+0088.034 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_comments.table.tmpr2.gz (17/21/fopen): adding to final database dump
+0088.034 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_comments.table.gz (18/21/fopen): adding to final database dump
+0088.034 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_links.table.tmpr0.gz (19/21/fopen): adding to final database dump
+0088.034 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_links.table.gz (20/21/fopen): adding to final database dump
+0088.035 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_postmeta.table.tmpr1813.gz (21/21/fopen): adding to final database dump
+0088.035 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_postmeta.table.gz (22/21/fopen): adding to final database dump
+0088.035 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_posts.table.tmpr313.gz (23/21/fopen): adding to final database dump
+0088.036 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_posts.table.gz (24/21/fopen): adding to final database dump
+0088.036 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_term_relationships.table.tmpr100001.gz (25/21/fopen): adding to final database dump
+0088.036 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_term_relationships.table.gz (26/21/fopen): adding to final database dump
+0088.036 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_term_taxonomy.table.tmpr5.gz (27/21/fopen): adding to final database dump
+0088.036 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_term_taxonomy.table.gz (28/21/fopen): adding to final database dump
+0088.037 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_termmeta.table.tmpr0.gz (29/21/fopen): adding to final database dump
+0088.037 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_termmeta.table.gz (30/21/fopen): adding to final database dump
+0088.037 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_terms.table.tmpr5.gz (31/21/fopen): adding to final database dump
+0088.037 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_terms.table.gz (32/21/fopen): adding to final database dump
+0088.037 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_e_events.table.tmpr4.gz (33/21/fopen): adding to final database dump
+0088.038 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_e_events.table.gz (34/21/fopen): adding to final database dump
+0088.038 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_wpforms_logs.table.tmpr0.gz (35/21/fopen): adding to final database dump
+0088.038 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_wpforms_logs.table.gz (36/21/fopen): adding to final database dump
+0088.038 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (37/21/fopen): adding to final database dump
+0088.038 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_wpforms_payment_meta.table.gz (38/21/fopen): adding to final database dump
+0088.038 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_wpforms_payments.table.tmpr0.gz (39/21/fopen): adding to final database dump
+0088.039 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_wpforms_payments.table.gz (40/21/fopen): adding to final database dump
+0088.039 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_wpforms_tasks_meta.table.tmpr21.gz (41/21/fopen): adding to final database dump
+0088.039 (0) backup_2025-11-26-1502_planty_ae0534002b00-db-table-wp_wpforms_tasks_meta.table.gz (42/21/fopen): adding to final database dump
+0088.040 (0) backup_2025-11-26-1502_planty_ae0534002b00-db.gz: finished writing out complete database file (248.6 KB)
+0088.045 (0) Total database tables backed up: 21 (backup_2025-11-26-1502_planty_ae0534002b00-db.gz, size: 254669, sha1: 6bbe8a2b1517f2d3494c96534308887a2e817328, sha256: c5bf887b7d32bd76e56a65b8572dfe09b9e43b1ce08162c6ca9d296af08dca06)
+0088.048 (0) backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip: plugins: This file has already been successfully uploaded
+0088.048 (0) backup_2025-11-26-1502_planty_ae0534002b00-themes.zip: themes: This file has already been successfully uploaded
+0088.048 (0) backup_2025-11-26-1502_planty_ae0534002b00-uploads.zip: uploads: This file has already been successfully uploaded
+0088.049 (0) backup_2025-11-26-1502_planty_ae0534002b00-others.zip: others: This file has already been successfully uploaded
+0088.049 (0) backup_2025-11-26-1502_planty_ae0534002b00-db.gz: db: This file has not yet been successfully uploaded: will queue
+0088.049 (0) Saving backup history. Total backup size: 58.4 MB
+0088.050 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0088.051 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0088.051 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1e5661594ea0601caf9425a2dc58c3da)
+0088.396 (0) Google Drive: quota usage: used=663.2 MB, total=15360 MB, available=14696.8 MB
+0088.397 (0) Google Drive: backup_2025-11-26-1502_planty_ae0534002b00-db.gz: Attempting to upload to Google Drive (into folder id: 1_QEwkfVEdZse3OPbNXOfdlSWYwmJMyLe)
+0090.580 (0) Googledrive chunked upload: 100 % uploaded
+0090.582 (0) Google Drive: OK: Archive backup_2025-11-26-1502_planty_ae0534002b00-db.gz uploaded in 2.18 seconds
+0090.582 (0) Recording as successfully uploaded: backup_2025-11-26-1502_planty_ae0534002b00-db.gz
+0090.583 (0) Deleting local file: backup_2025-11-26-1502_planty_ae0534002b00-db.gz: OK
+0090.583 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=20
+0090.584 (0) Number of backup sets in history: 18; groups (db): 1
+0090.584 (0) Examining (for databases) backup set with group_id=0, nonce=ae0534002b00, datestamp=1764165764 (Nov 26 2025 14:02:44)
+0090.584 (0) This backup set is the backup set just made, so will not be deleted.
+0090.584 (0) Examining (for databases) backup set with group_id=0, nonce=0dd57d0491c1, datestamp=1764162155 (Nov 26 2025 13:02:35)
+0090.584 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0090.584 (0) Examining (for databases) backup set with group_id=0, nonce=7a786de7c91b, datestamp=1764160068 (Nov 26 2025 12:27:48)
+0090.584 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0090.584 (0) Examining (for databases) backup set with group_id=0, nonce=394d877fd88e, datestamp=1764159999 (Nov 26 2025 12:26:39)
+0090.585 (0) Examining (for databases) backup set with group_id=0, nonce=02da6deeb388, datestamp=1764155038 (Nov 26 2025 11:03:58)
+0090.585 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0090.585 (0) Examining (for databases) backup set with group_id=0, nonce=7f801506a3b9, datestamp=1764151380 (Nov 26 2025 10:03:00)
+0090.585 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0090.585 (0) Examining (for databases) backup set with group_id=0, nonce=c9294b383722, datestamp=1764149893 (Nov 26 2025 09:38:13)
+0090.585 (0) Examining (for databases) backup set with group_id=0, nonce=b506689ab0ad, datestamp=1764149890 (Nov 26 2025 09:38:10)
+0090.585 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0090.585 (0) Examining (for databases) backup set with group_id=0, nonce=be6719a4e21d, datestamp=1763726664 (Nov 21 2025 12:04:24)
+0090.585 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0090.585 (0) Examining (for databases) backup set with group_id=0, nonce=5958f206c162, datestamp=1763722969 (Nov 21 2025 11:02:49)
+0090.585 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0090.586 (0) Examining (for databases) backup set with group_id=0, nonce=9d8ca2b79056, datestamp=1763719366 (Nov 21 2025 10:02:46)
+0090.586 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0090.586 (0) Examining (for databases) backup set with group_id=0, nonce=7c98c9d5764d, datestamp=1763715825 (Nov 21 2025 09:03:45)
+0090.586 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0090.586 (0) Examining (for databases) backup set with group_id=0, nonce=0e9e30c7c7c7, datestamp=1763714436 (Nov 21 2025 08:40:36)
+0090.586 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0090.586 (0) Examining (for databases) backup set with group_id=0, nonce=5dcdf07f673f, datestamp=1763714372 (Nov 21 2025 08:39:32)
+0090.586 (0) Examining (for databases) backup set with group_id=0, nonce=5eeae281321a, datestamp=1763710772 (Nov 21 2025 07:39:32)
+0090.586 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0090.586 (0) Examining (for databases) backup set with group_id=0, nonce=73418e61bd31, datestamp=1763704969 (Nov 21 2025 06:02:49)
+0090.586 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0090.587 (0) Examining (for databases) backup set with group_id=0, nonce=867a03b7cbfb, datestamp=1763701963 (Nov 21 2025 05:12:43)
+0090.587 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0090.587 (0) Examining (for databases) backup set with group_id=0, nonce=3a1784ce7524, datestamp=1763701365 (Nov 21 2025 05:02:45)
+0090.587 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0090.587 (0) Number of backup sets in history: 18; groups (files): 1
+0090.587 (0) Examining (for files) backup set with nonce=ae0534002b00, datestamp=1764165764 (Nov 26 2025 14:02:44)
+0090.587 (0) This backup set is the backup set just made, so will not be deleted.
+0090.587 (0) This backup set is the backup set just made, so will not be deleted.
+0090.587 (0) This backup set is the backup set just made, so will not be deleted.
+0090.587 (0) This backup set is the backup set just made, so will not be deleted.
+0090.587 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0090.588 (0) Examining (for files) backup set with nonce=0dd57d0491c1, datestamp=1764162155 (Nov 26 2025 13:02:35)
+0090.588 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0090.588 (0) Examining (for files) backup set with nonce=7a786de7c91b, datestamp=1764160068 (Nov 26 2025 12:27:48)
+0090.588 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0090.588 (0) Examining (for files) backup set with nonce=394d877fd88e, datestamp=1764159999 (Nov 26 2025 12:26:39)
+0090.588 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0090.588 (0) Examining (for files) backup set with nonce=02da6deeb388, datestamp=1764155038 (Nov 26 2025 11:03:58)
+0090.588 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0090.588 (0) Examining (for files) backup set with nonce=7f801506a3b9, datestamp=1764151380 (Nov 26 2025 10:03:00)
+0090.588 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0090.588 (0) Examining (for files) backup set with nonce=c9294b383722, datestamp=1764149893 (Nov 26 2025 09:38:13)
+0090.588 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0090.588 (0) Examining (for files) backup set with nonce=b506689ab0ad, datestamp=1764149890 (Nov 26 2025 09:38:10)
+0090.588 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0090.589 (0) Examining (for files) backup set with nonce=be6719a4e21d, datestamp=1763726664 (Nov 21 2025 12:04:24)
+0090.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0090.589 (0) Examining (for files) backup set with nonce=5958f206c162, datestamp=1763722969 (Nov 21 2025 11:02:49)
+0090.589 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0090.589 (0) Examining (for files) backup set with nonce=9d8ca2b79056, datestamp=1763719366 (Nov 21 2025 10:02:46)
+0090.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0090.589 (0) Examining (for files) backup set with nonce=7c98c9d5764d, datestamp=1763715825 (Nov 21 2025 09:03:45)
+0090.589 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0090.589 (0) Examining (for files) backup set with nonce=0e9e30c7c7c7, datestamp=1763714436 (Nov 21 2025 08:40:36)
+0090.589 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0090.589 (0) Examining (for files) backup set with nonce=5dcdf07f673f, datestamp=1763714372 (Nov 21 2025 08:39:32)
+0090.589 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0090.590 (0) Examining (for files) backup set with nonce=5eeae281321a, datestamp=1763710772 (Nov 21 2025 07:39:32)
+0090.590 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0090.590 (0) Examining (for files) backup set with nonce=73418e61bd31, datestamp=1763704969 (Nov 21 2025 06:02:49)
+0090.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0090.590 (0) Examining (for files) backup set with nonce=867a03b7cbfb, datestamp=1763701963 (Nov 21 2025 05:12:43)
+0090.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0090.590 (0) Examining (for files) backup set with nonce=3a1784ce7524, datestamp=1763701365 (Nov 21 2025 05:02:45)
+0090.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0090.590 (0) Retain: saving new backup history (sets now: 18) and finishing retain operation
+0090.591 (0) Resume backup (ae0534002b00, 0): finish run
+0090.591 (0) Decremented the semaphore (fd) by 1
+0090.592 (0) Semaphore (fd) unlocked
+0090.592 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0090.593 (0) The backup succeeded and is now complete
+0090.593 (0) Deleting zip manifest (backup_2025-11-26-1502_planty_ae0534002b00-plugins.zip.list.tmp)
+0090.593 (0) Deleting zip manifest (backup_2025-11-26-1502_planty_ae0534002b00-themes.zip.list.tmp)
+0090.593 (0) Deleting zip manifest (backup_2025-11-26-1502_planty_ae0534002b00-uploads.zip.list.tmp)
+0090.594 (0) Deleting zip manifest (backup_2025-11-26-1502_planty_ae0534002b00-others.zip.list.tmp)
+0090.594 (0) No email will/can be sent - the user has not configured an email address.
+0090.594 (0) La sauvegarde a réussi et est maintenant terminée
