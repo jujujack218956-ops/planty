@@ -428,3 +428,259 @@ Updated: 2025-11-04 11:01:53
   color: #000000;
   text-decoration: none;
 }
+
+/* ===============RESPONSIVE MOBILES============== */
+/* Tablettes et plus petit (max 768px) */
+@media screen and (max-width: 768px) {
+
+  /* === HEADER === */
+  #header {
+    height: 60px;
+    /* Réduire la hauteur sur mobile */
+    padding: 0 10px;
+  }
+
+  .header-container {
+    padding: 0 10px;
+  }
+
+  /* Logo plus petit sur mobile */
+  #branding {
+    width: 120px;
+    /* Réduire la taille du logo */
+  }
+
+  #branding img {
+    width: 120px;
+    max-height: 15px;
+  }
+
+  /* Navigation sur mobile */
+  #menu {
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  .nav-menu {
+    gap: 5px;
+    /* Réduire l'espacement */
+  }
+
+  /* Liens de navigation - tailles réduites */
+  .nav-menu li a {
+    height: 60px;
+    /* Hauteur réduite */
+    margin-left: 5px;
+    /* Moins d'espace */
+    font-size: 12px;
+    /* Texte plus petit */
+  }
+
+  /* "Nous rencontrer" et "Admin" sur mobile */
+  .nav-menu li:not(:last-child) a {
+    width: auto;
+    /* Largeur automatique */
+    padding: 0 8px;
+    /* Padding au lieu de width fixe */
+    font-size: 11px;
+  }
+
+  .nav-menu li:not(:last-child) a:hover,
+  .nav-menu li:not(:last-child).current-menu-item a {
+    width: auto;
+    font-size: 11px;
+    transform: none;
+    /* Désactiver l'animation sur mobile */
+  }
+
+  /* Bouton "Commander" sur mobile */
+  .nav-menu li:last-child a {
+    width: auto;
+    /* Largeur automatique */
+    padding: 0 15px;
+    /* Padding au lieu de width fixe */
+    font-size: 12px;
+  }
+}
+
+/* Smartphones (max 480px) */
+@media screen and (max-width: 480px) {
+
+  #header {
+    height: 50px;
+  }
+
+  .header-container {
+    padding: 0 5px;
+  }
+
+  /* Logo encore plus petit */
+  #branding {
+    width: 100px;
+  }
+
+  #branding img {
+    width: 100px;
+    max-height: 12px;
+  }
+
+  .nav-menu li a {
+    height: 50px;
+    margin-left: 3px;
+    font-size: 10px;
+  }
+
+  .nav-menu li:not(:last-child) a {
+    padding: 0 5px;
+    font-size: 9px;
+  }
+
+  .nav-menu li:last-child a {
+    padding: 0 10px;
+    font-size: 10px;
+  }
+}
+
+/* Tablettes et plus petit (max 768px) */
+@media screen and (max-width: 768px) {
+
+  /* === HEADER === */
+  #header {
+    height: 60px;
+    /* Réduire la hauteur sur mobile */
+    padding: 0 10px;
+  }
+
+  .header-container {
+    padding: 0 10px;
+  }
+
+  /* Logo plus petit sur mobile */
+  #branding {
+    width: 120px;
+    /* Réduire la taille du logo */
+  }
+
+  #branding img {
+    width: 120px;
+    max-height: 15px;
+  }
+
+  /* Navigation sur mobile */
+  #menu {
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  .nav-menu {
+    gap: 5px;
+    /* Réduire l'espacement */
+  }
+
+  /* Liens de navigation - tailles réduites */
+  .nav-menu li a {
+    height: 60px;
+    /* Hauteur réduite */
+    margin-left: 5px;
+    /* Moins d'espace */
+    font-size: 12px !important;
+    /* Texte plus petit */
+  }
+
+  /* "Nous rencontrer" et "Admin" sur mobile */
+  .nav-menu li:not(:last-child) a {
+    width: auto !important;
+    /* Largeur automatique */
+    padding: 0 8px;
+    /* Padding au lieu de width fixe */
+    font-size: 11px !important;
+  }
+
+  .nav-menu li:not(:last-child) a:hover,
+  .nav-menu li:not(:last-child).current-menu-item a {
+    width: auto !important;
+    font-size: 11px !important;
+    transform: none;
+    /* Désactiver l'animation sur mobile */
+  }
+
+  /* Bouton "Commander" sur mobile */
+  .nav-menu li:last-child a {
+    width: auto !important;
+    /* Largeur automatique */
+    padding: 0 15px;
+    /* Padding au lieu de width fixe */
+    font-size: 12px !important;
+  }
+}
+
+/* Smartphones (max 480px) */
+@media screen and (max-width: 480px) {
+
+  #header {
+    height: 50px;
+  }
+
+  .header-container {
+    padding: 0 5px;
+  }
+
+  /* Logo encore plus petit */
+  #branding {
+    width: 100px;
+  }
+
+  #branding img {
+    width: 100px;
+    max-height: 12px;
+  }
+
+  .nav-menu li a {
+    height: 50px;
+    margin-left: 3px;
+    font-size: 10px !important;
+  }
+
+  .nav-menu li:not(:last-child) a {
+    padding: 0 5px;
+    font-size: 9px !important;
+  }
+
+  .nav-menu li:last-child a {
+    padding: 0 10px;
+    font-size: 10px !important;
+  }
+}
+
+/* ========================================
+   RESPONSIVE - TITRES ELEMENTOR
+   ======================================== */
+
+/* Titres généraux sur mobile */
+@media screen and (max-width: 768px) {
+
+  /* Cibler les titres Elementor */
+  .elementor-heading-title {
+    font-size: 2rem;
+    /* Réduire la taille sur tablette */
+    line-height: 1.2;
+  }
+
+  /* Si le titre "COMMANDER" a une classe spécifique, ajuste ici */
+  h1.elementor-heading-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .elementor-heading-title {
+    font-size: 1.5rem;
+    /* Encore plus petit sur smartphone */
+    line-height: 1.1;
+  }
+
+  h1.elementor-heading-title {
+    font-size: 1.8rem;
+  }
+}
