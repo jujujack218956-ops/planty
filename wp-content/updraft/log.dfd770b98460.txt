@@ -1,0 +1,236 @@
+0000.000 (0) Opened log file at time: Thu, 27 Nov 2025 09:04:27 +0000 on http://localhost:10008
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.9 WP: 6.8.3 PHP: 8.2.27 (fpm-fcgi, Darwin macstudio-de-juliette-1.home 25.1.0 Darwin Kernel Version 25.1.0: Mon Oct 20 19:33:00 PDT 2025; root:xnu-12377.41.6~2/RELEASE_ARM64_T6020 arm64) MySQL: 8.0.35 (max packet size=1073741824) WPLANG: fr_FR Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.7M | 10M) multisite: N openssl: OpenSSL 3.4.1 11 Feb 2025 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 128285.3 MB
+0000.003 (0) Tasks: Backup files: 1 (schedule: every2hours) Backup DB:  (schedule: everyhour)
+0000.003 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.004 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1764187421, seconds_ago=46846)
+0000.006 (0) Set semaphore last lock (f) time to 2025-11-27 09:04:27
+0000.007 (0) Semaphore lock (f) complete
+0000.008 (0) Backup run: resumption=0, nonce=dfd770b98460, file_nonce=dfd770b98460 begun at=1764234267 (0s ago), job type=backup
+0000.009 (0) Scheduling a resumption (1) after 300 seconds (1764234567) in case this run gets aborted
+0000.009 (0) Checking if we have a zip executable available
+0000.010 (0) Testing: /usr/bin/zip
+0000.021 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.021 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.021 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.022 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.022 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.029 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.030 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.036 (0) Working binary zip found: /usr/bin/zip
+0000.037 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.037 (0) Creation of backups of directories: beginning
+0000.038 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.256 (0) Total entities for the zip file: 1248 directories, 8092 files (0 skipped as non-modified), 118.5 MB
+0000.258 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.260 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.262 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.263 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.265 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.267 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.269 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.271 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.274 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.276 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.276 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.5 MB, 8092 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.589 (0) backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: size is now: 5.80 MB
+0000.592 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 1100 files added (on-disk size: 5967 KB)
+0000.593 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 1200 files added (on-disk size: 5967 KB)
+0000.595 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 1300 files added (on-disk size: 5967 KB)
+0000.597 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 1400 files added (on-disk size: 5967 KB)
+0000.599 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 1500 files added (on-disk size: 5967 KB)
+0000.602 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 1600 files added (on-disk size: 5967 KB)
+0000.606 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 1700 files added (on-disk size: 5967 KB)
+0000.613 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 1800 files added (on-disk size: 5967 KB)
+0000.615 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 1900 files added (on-disk size: 5967 KB)
+0000.617 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 2000 files added (on-disk size: 5967 KB)
+0000.618 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.4 MB, 8092 files batched, 1001 (2002) added so far); re-opening (prior size: 5967 KB)
+0000.925 (0) backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: size is now: 9.70 MB
+0000.928 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 2100 files added (on-disk size: 9966.6 KB)
+0000.929 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 2200 files added (on-disk size: 9966.6 KB)
+0000.931 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 2300 files added (on-disk size: 9966.6 KB)
+0000.934 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 2400 files added (on-disk size: 9966.6 KB)
+0000.935 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 2500 files added (on-disk size: 9966.6 KB)
+0000.937 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 2600 files added (on-disk size: 9966.6 KB)
+0000.938 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 2700 files added (on-disk size: 9966.6 KB)
+0000.940 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 2800 files added (on-disk size: 9966.6 KB)
+0000.942 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 2900 files added (on-disk size: 9966.6 KB)
+0000.944 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 3000 files added (on-disk size: 9966.6 KB)
+0000.944 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.6 MB, 8092 files batched, 1001 (3003) added so far); re-opening (prior size: 9966.6 KB)
+0001.155 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 3100 files added (on-disk size: 10940.7 KB)
+0001.157 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 3200 files added (on-disk size: 10940.7 KB)
+0001.159 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 3300 files added (on-disk size: 10940.7 KB)
+0001.160 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 3400 files added (on-disk size: 10940.7 KB)
+0001.162 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 3500 files added (on-disk size: 10940.7 KB)
+0001.164 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 3600 files added (on-disk size: 10940.7 KB)
+0001.166 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 3700 files added (on-disk size: 10940.7 KB)
+0001.167 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 3800 files added (on-disk size: 10940.7 KB)
+0001.169 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 3900 files added (on-disk size: 10940.7 KB)
+0001.170 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 4000 files added (on-disk size: 10940.7 KB)
+0001.171 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.6 MB, 8092 files batched, 1001 (4004) added so far); re-opening (prior size: 10940.7 KB)
+0001.405 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 4100 files added (on-disk size: 12195.2 KB)
+0001.408 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 4200 files added (on-disk size: 12195.2 KB)
+0001.410 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 4300 files added (on-disk size: 12195.2 KB)
+0001.411 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 4400 files added (on-disk size: 12195.2 KB)
+0001.413 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 4500 files added (on-disk size: 12195.2 KB)
+0001.414 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 4600 files added (on-disk size: 12195.2 KB)
+0001.416 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 4700 files added (on-disk size: 12195.2 KB)
+0001.417 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 4800 files added (on-disk size: 12195.2 KB)
+0001.419 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 4900 files added (on-disk size: 12195.2 KB)
+0001.420 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 5000 files added (on-disk size: 12195.2 KB)
+0001.420 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.1 MB, 8092 files batched, 1001 (5005) added so far); re-opening (prior size: 12195.2 KB)
+0001.750 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 5100 files added (on-disk size: 14602.5 KB)
+0001.752 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 5200 files added (on-disk size: 14602.5 KB)
+0001.755 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 5300 files added (on-disk size: 14602.5 KB)
+0001.756 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 5400 files added (on-disk size: 14602.5 KB)
+0001.758 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 5500 files added (on-disk size: 14602.5 KB)
+0001.759 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 5600 files added (on-disk size: 14602.5 KB)
+0001.761 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 5700 files added (on-disk size: 14602.5 KB)
+0001.762 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 5800 files added (on-disk size: 14602.5 KB)
+0001.764 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 5900 files added (on-disk size: 14602.5 KB)
+0001.765 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 8092 files batched, 985 (5990) added so far); re-opening (prior size: 14602.5 KB)
+0002.372 (0) backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: size is now: 20.00 MB
+0002.377 (0) A useful amount of data was added after this amount of zip processing: 1.5 s (normalised: 1.5 s, rate: 17575.5 KB/s)
+0002.378 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.4591400623322, normalised_time=1.4565732342861, max_time=2.377161026001, data points known=1, old_max_bytes=26214400, new_max_bytes=107983859)
+0002.379 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 6000 files added (on-disk size: 20455.3 KB)
+0002.381 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 6100 files added (on-disk size: 20455.3 KB)
+0002.383 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 6200 files added (on-disk size: 20455.3 KB)
+0002.384 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 6300 files added (on-disk size: 20455.3 KB)
+0002.386 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 6400 files added (on-disk size: 20455.3 KB)
+0002.388 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 6500 files added (on-disk size: 20455.3 KB)
+0002.389 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 6600 files added (on-disk size: 20455.3 KB)
+0002.391 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 6700 files added (on-disk size: 20455.3 KB)
+0002.393 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 6800 files added (on-disk size: 20455.3 KB)
+0002.394 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 6900 files added (on-disk size: 20455.3 KB)
+0002.395 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (33.7 MB, 8092 files batched, 1001 (6991) added so far); re-opening (prior size: 20455.3 KB)
+0003.354 (0) backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: size is now: 30.40 MB
+0003.359 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 7000 files added (on-disk size: 31131 KB)
+0003.360 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 7100 files added (on-disk size: 31131 KB)
+0003.362 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 7200 files added (on-disk size: 31131 KB)
+0003.364 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 7300 files added (on-disk size: 31131 KB)
+0003.365 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 7400 files added (on-disk size: 31131 KB)
+0003.367 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 7500 files added (on-disk size: 31131 KB)
+0003.368 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 7600 files added (on-disk size: 31131 KB)
+0003.370 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 7700 files added (on-disk size: 31131 KB)
+0003.372 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 7800 files added (on-disk size: 31131 KB)
+0003.373 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 7900 files added (on-disk size: 31131 KB)
+0003.375 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.2 MB, 8092 files batched, 1001 (7992) added so far); re-opening (prior size: 31131 KB)
+0004.072 (0) backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: size is now: 36.70 MB
+0004.075 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.tmp: 8000 files added (on-disk size: 37601.7 KB)
+0004.194 (0) Creating zip file manifest (backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.list-temp.tmp)
+0004.208 (0) Successfully created zip file manifest (size: 754721)
+0004.524 (0) Created plugins zip (0) - 37707.5 KB in 4.5 s (8407.9 KB/s) (sha1: eea091976d7145b8ebd29c213c0dd47f894cee8e, sha256: f451f91a0da88496b931102f9023fa246b003713b3c9b0b8a1b076c24a3de5fc)
+0004.528 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0004.528 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1e5661594ea0601caf9425a2dc58c3da)
+0004.895 (0) Google Drive: quota usage: used=669.6 MB, total=15360 MB, available=14690.4 MB
+0004.896 (0) Google Drive: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip: Attempting to upload to Google Drive (into folder id: 1_QEwkfVEdZse3OPbNXOfdlSWYwmJMyLe)
+0005.866 (0) Googledrive chunked upload: 2.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 6.1 / 18)
+0006.329 (0) Googledrive chunked upload: 8.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 6.1 / 18)
+0006.925 (0) Googledrive chunked upload: 19 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 6.1 / 18)
+0007.940 (0) Googledrive chunked upload: 40.7 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 6.1 / 18)
+0037.432 (0) Googledrive chunked upload: 84.2 % uploaded (32505856)
+0039.862 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0039.864 (0) Google Drive: OK: Archive backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip uploaded in 34.97 seconds
+0039.864 (0) Recording as successfully uploaded: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip
+0039.866 (0) Deleting local file: backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip: OK
+0039.868 (0) Beginning creation of dump of themes (split every: 400 MB)
+0039.904 (0) Total entities for the zip file: 336 directories, 764 files (0 skipped as non-modified), 23.7 MB
+0039.907 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0039.909 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0039.911 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0039.913 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0039.916 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0039.918 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0039.920 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0040.589 (0) backup_2025-11-27-1004_planty_dfd770b98460-themes.zip.tmp: size is now: 7.70 MB
+0040.594 (0) Creating zip file manifest (backup_2025-11-27-1004_planty_dfd770b98460-themes.zip.list-temp.tmp)
+0040.596 (0) Successfully created zip file manifest (size: 63094)
+0040.664 (0) Created themes zip (0) - 7930.6 KB in 0.8 s (9971.6 KB/s) (sha1: a3177b5c20c33ce81b6261213b4551b31b871724, sha256: 84d317b30ee56954c8c478ee16b972f7c886cd19b83ac4868cdf8952488f3a2c)
+0040.666 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0040.666 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1e5661594ea0601caf9425a2dc58c3da)
+0041.249 (0) Google Drive: quota usage: used=706.5 MB, total=15360 MB, available=14653.5 MB
+0041.252 (0) Google Drive: backup_2025-11-27-1004_planty_dfd770b98460-themes.zip: Attempting to upload to Google Drive (into folder id: 1_QEwkfVEdZse3OPbNXOfdlSWYwmJMyLe)
+0042.826 (0) Googledrive chunked upload: 12.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 5 / 18)
+0043.277 (0) Googledrive chunked upload: 38.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 5 / 18)
+0043.831 (0) Googledrive chunked upload: 90.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 5 / 18)
+0045.281 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0045.284 (0) Google Drive: OK: Archive backup_2025-11-27-1004_planty_dfd770b98460-themes.zip uploaded in 4.03 seconds
+0045.285 (0) Recording as successfully uploaded: backup_2025-11-27-1004_planty_dfd770b98460-themes.zip
+0045.286 (0) Deleting local file: backup_2025-11-27-1004_planty_dfd770b98460-themes.zip: OK
+0045.288 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots,wp-staging
+0045.288 (0) Looking for candidates to backup in: /Users/juliette/Local Sites/planty/app/public/wp-content/uploads
+0045.288 (0) finding files: 2025: adding to list (1)
+0045.288 (0) finding files: astra-docs: adding to list (2)
+0045.288 (0) finding files: wpcf7_uploads: adding to list (3)
+0045.289 (0) finding files: wpforms: adding to list (4)
+0045.289 (0) finding files: elementor: adding to list (5)
+0045.289 (0) finding files: beans: adding to list (6)
+0045.289 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0045.293 (0) Total entities for the zip file: 15 directories, 105 files (0 skipped as non-modified), 17.2 MB
+0045.295 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0045.440 (0) backup_2025-11-27-1004_planty_dfd770b98460-uploads.zip.tmp: size is now: 11.30 MB
+0045.442 (0) Creating zip file manifest (backup_2025-11-27-1004_planty_dfd770b98460-uploads.zip.list-temp.tmp)
+0045.443 (0) Successfully created zip file manifest (size: 5588)
+0045.548 (0) Created uploads zip (0) - 11557.8 KB in 0.3 s (44809.1 KB/s) (sha1: 379ab9c2fb0bd4bf73fc7b8f5e0923cb6ba23516, sha256: 6a19412ebee1e26411db7c3e028f86ff7290a954b60bde57a283844936544139)
+0045.549 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0045.550 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1e5661594ea0601caf9425a2dc58c3da)
+0045.979 (0) Google Drive: quota usage: used=706.5 MB, total=15360 MB, available=14653.5 MB
+0045.980 (0) Google Drive: backup_2025-11-27-1004_planty_dfd770b98460-uploads.zip: Attempting to upload to Google Drive (into folder id: 1_QEwkfVEdZse3OPbNXOfdlSWYwmJMyLe)
+0047.118 (0) Googledrive chunked upload: 8.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 4.9 / 18)
+0047.555 (0) Googledrive chunked upload: 26.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 4.9 / 18)
+0057.821 (0) Googledrive chunked upload: 62 % uploaded (7340032)
+0058.404 (0) Googledrive chunked upload: 97.5 % uploaded (11534336 - increasing chunk size to 8192 KB - memory usage: 4.9 / 18)
+0059.962 (0) Googledrive chunked upload: 100 % uploaded (11534336)
+0059.963 (0) Google Drive: OK: Archive backup_2025-11-27-1004_planty_dfd770b98460-uploads.zip uploaded in 13.98 seconds
+0059.964 (0) Recording as successfully uploaded: backup_2025-11-27-1004_planty_dfd770b98460-uploads.zip
+0059.965 (0) Deleting local file: backup_2025-11-27-1004_planty_dfd770b98460-uploads.zip: OK
+0059.966 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0059.967 (0) Does not exist: /Users/juliette/Local Sites/planty/app/public/wp-content/mu-plugins
+0059.967 (0) There are no mu-plugins to backup. Will not raise an error.
+0059.967 (0) mu-plugins: create_zip returned an error
+0059.968 (0) Beginning backup of other directories found in the content directory (index: 0)
+0059.968 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0059.969 (0) Looking for candidates to backup in: /Users/juliette/Local Sites/planty/app/public/wp-content
+0059.969 (0) finding files: upgrade: skipping: excluded by options
+0059.969 (0) finding files: .DS_Store: adding to list (1)
+0059.969 (0) finding files: index.php: adding to list (2)
+0059.969 (0) finding files: upgrade-temp-backup: adding to list (3)
+0059.969 (0) finding files: plugins: skipping: this is the plugins directory
+0059.969 (0) finding files: uploads: skipping: this is the uploads directory
+0059.970 (0) finding files: updraft: skipping: this is the updraft directory
+0059.970 (0) finding files: languages: adding to list (4)
+0059.970 (0) finding files: themes: skipping: this is the themes directory
+0059.975 (0) Total entities for the zip file: 5 directories, 176 files (0 skipped as non-modified), 8.1 MB
+0059.977 (0) Zip: backup_2025-11-27-1004_planty_dfd770b98460-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0060.237 (0) backup_2025-11-27-1004_planty_dfd770b98460-others.zip.tmp: size is now: 2.30 MB
+0060.239 (0) Creating zip file manifest (backup_2025-11-27-1004_planty_dfd770b98460-others.zip.list-temp.tmp)
+0060.240 (0) Successfully created zip file manifest (size: 12233)
+0060.262 (0) Created others zip (0) - 2379 KB in 0.3 s (8178.9 KB/s) (sha1: 10802fecdcb4f43c5750edc43d1a691b412b32f4, sha256: 2560187283e1be4dde2ebdbd407bfcd85b2bc6ad616ab890c151ab7d69fd6e10)
+0060.263 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0060.263 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1e5661594ea0601caf9425a2dc58c3da)
+0060.611 (0) Google Drive: quota usage: used=714.2 MB, total=15360 MB, available=14645.8 MB
+0060.613 (0) Google Drive: backup_2025-11-27-1004_planty_dfd770b98460-others.zip: Attempting to upload to Google Drive (into folder id: 1_QEwkfVEdZse3OPbNXOfdlSWYwmJMyLe)
+0061.536 (0) Googledrive chunked upload: 43 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 4.9 / 18)
+0062.944 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0062.948 (0) Google Drive: OK: Archive backup_2025-11-27-1004_planty_dfd770b98460-others.zip uploaded in 2.33 seconds
+0062.948 (0) Recording as successfully uploaded: backup_2025-11-27-1004_planty_dfd770b98460-others.zip
+0062.949 (0) Deleting local file: backup_2025-11-27-1004_planty_dfd770b98460-others.zip: OK
+0062.952 (0) Saving backup status to database (elements: 8)
+0062.955 (0) No database backup (wp) - not part of this run
+0062.956 (0) backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip: plugins: This file has already been successfully uploaded
+0062.956 (0) backup_2025-11-27-1004_planty_dfd770b98460-themes.zip: themes: This file has already been successfully uploaded
+0062.956 (0) backup_2025-11-27-1004_planty_dfd770b98460-uploads.zip: uploads: This file has already been successfully uploaded
+0062.957 (0) backup_2025-11-27-1004_planty_dfd770b98460-others.zip: others: This file has already been successfully uploaded
+0062.957 (0) Saving backup history. Total backup size: 58.2 MB
+0062.958 (0) Resume backup (dfd770b98460, 0): finish run
+0062.959 (0) There were no more files that needed uploading
+0062.959 (0) Decremented the semaphore (f) by 1
+0062.960 (0) Semaphore (f) unlocked
+0062.960 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0062.963 (0) The backup succeeded and is now complete
+0062.964 (0) Deleting zip manifest (backup_2025-11-27-1004_planty_dfd770b98460-plugins.zip.list.tmp)
+0062.964 (0) Deleting zip manifest (backup_2025-11-27-1004_planty_dfd770b98460-themes.zip.list.tmp)
+0062.965 (0) Deleting zip manifest (backup_2025-11-27-1004_planty_dfd770b98460-uploads.zip.list.tmp)
+0062.965 (0) Deleting zip manifest (backup_2025-11-27-1004_planty_dfd770b98460-others.zip.list.tmp)
+0062.965 (0) No email will be sent - this backup set was empty.
+0062.965 (0) La sauvegarde a réussi et est maintenant terminée
