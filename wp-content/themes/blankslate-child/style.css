@@ -22,26 +22,26 @@ Updated: 2025-11-04 11:01:53
 }
 
 .header-container {
-  max-width: 1440px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0;
 }
 
 /* Logo */
 #branding {
   display: flex;
   align-items: center;
-  width: 201px;
+  width: 200px;
 }
 
 #branding img {
-  width: 201px;
+  width: 200px;
   height: auto;
-  max-height: 19px;
+  max-height: 20px;
+  padding-left: 35px;
 }
 
 /* === NAVIGATION === */
@@ -241,7 +241,6 @@ Updated: 2025-11-04 11:01:53
   font-weight: 700;
   border: 2px solid #FFFFFF;
   background-color: #FFFFFF;
-  border-radius: 7px;
   padding: 0;
   -moz-appearance: textfield;
   appearance: none;
