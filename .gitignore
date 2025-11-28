@@ -8,7 +8,6 @@
 /local-xdebuginfo.php
 
 # --- Contenu lourd/volatile ---
-/wp-content/uploads/
 /wp-content/cache/
 /wp-content/upgrade/
 /wp-content/upgrade-temp-backup/
