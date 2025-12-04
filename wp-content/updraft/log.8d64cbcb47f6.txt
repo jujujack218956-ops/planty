@@ -1,0 +1,284 @@
+0000.000 (0) Opened log file at time: Mon, 01 Dec 2025 17:32:45 +0000 on http://localhost:10008
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.9 WP: 6.8.3 PHP: 8.2.27 (fpm-fcgi, Darwin macstudio-de-juliette-1.home 25.1.0 Darwin Kernel Version 25.1.0: Mon Oct 20 19:33:00 PDT 2025; root:xnu-12377.41.6~2/RELEASE_ARM64_T6020 arm64) MySQL: 8.0.35 (max packet size=1073741824) WPLANG: fr_FR Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.9M | 6M) multisite: N openssl: OpenSSL 3.4.1 11 Feb 2025 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 163572.8 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: every2hours) Backup DB:  (schedule: everyhour)
+0000.008 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.013 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1764322890, seconds_ago=287475)
+0000.014 (0) Set semaphore last lock (f) time to 2025-12-01 17:32:45
+0000.015 (0) Semaphore lock (f) complete
+0000.016 (0) Backup run: resumption=0, nonce=8d64cbcb47f6, file_nonce=8d64cbcb47f6 begun at=1764610365 (0s ago), job type=backup
+0000.017 (0) Scheduling a resumption (1) after 300 seconds (1764610665) in case this run gets aborted
+0000.028 (0) Checking if we have a zip executable available
+0000.028 (0) Testing: /usr/bin/zip
+0000.039 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.040 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.040 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.040 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.041 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.048 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.049 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.055 (0) Working binary zip found: /usr/bin/zip
+0000.056 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.056 (0) Creation of backups of directories: beginning
+0000.057 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.183 (0) Total entities for the zip file: 716 directories, 3523 files (0 skipped as non-modified), 83 MB
+0000.186 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.188 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.190 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.192 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.194 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.196 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.198 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.200 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.202 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.203 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.204 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.2 MB, 3523 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.433 (0) backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: size is now: 1.80 MB
+0000.436 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 1100 files added (on-disk size: 1865.9 KB)
+0000.438 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 1200 files added (on-disk size: 1865.9 KB)
+0000.440 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 1300 files added (on-disk size: 1865.9 KB)
+0000.442 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 1400 files added (on-disk size: 1865.9 KB)
+0000.445 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 1500 files added (on-disk size: 1865.9 KB)
+0000.445 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (26.2 MB, 3523 files batched, 502 (1503) added so far); re-opening (prior size: 1865.9 KB)
+0001.023 (0) backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: size is now: 7.50 MB
+0001.025 (0) A useful amount of data was added after this amount of zip processing: 0.9 s (normalised: 0.9 s, rate: 29118.1 KB/s)
+0001.026 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.92261409759521, normalised_time=0.87917885109165, max_time=1.0251359939575, data points known=1, old_max_bytes=26214400, new_max_bytes=178901482)
+0001.028 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 1600 files added (on-disk size: 7669.5 KB)
+0001.030 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 1700 files added (on-disk size: 7669.5 KB)
+0001.031 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 1800 files added (on-disk size: 7669.5 KB)
+0001.033 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 1900 files added (on-disk size: 7669.5 KB)
+0001.035 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 2000 files added (on-disk size: 7669.5 KB)
+0001.037 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 2100 files added (on-disk size: 7669.5 KB)
+0001.039 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 2200 files added (on-disk size: 7669.5 KB)
+0001.040 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 2300 files added (on-disk size: 7669.5 KB)
+0001.042 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 2400 files added (on-disk size: 7669.5 KB)
+0001.044 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 2500 files added (on-disk size: 7669.5 KB)
+0001.045 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (29.7 MB, 3523 files batched, 1001 (2504) added so far); re-opening (prior size: 7669.5 KB)
+0001.924 (0) backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: size is now: 16.80 MB
+0001.927 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 2600 files added (on-disk size: 17185.3 KB)
+0001.929 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 2700 files added (on-disk size: 17185.3 KB)
+0001.931 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 2800 files added (on-disk size: 17185.3 KB)
+0001.933 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 2900 files added (on-disk size: 17185.3 KB)
+0001.935 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 3000 files added (on-disk size: 17185.3 KB)
+0001.937 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 3100 files added (on-disk size: 17185.3 KB)
+0001.938 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 3200 files added (on-disk size: 17185.3 KB)
+0001.940 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 3300 files added (on-disk size: 17185.3 KB)
+0001.942 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 3400 files added (on-disk size: 17185.3 KB)
+0001.944 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: 3500 files added (on-disk size: 17185.3 KB)
+0001.944 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.8 MB, 3523 files batched, 1001 (3505) added so far); re-opening (prior size: 17185.3 KB)
+0002.599 (0) backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.tmp: size is now: 22.70 MB
+0002.649 (0) Creating zip file manifest (backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.list-temp.tmp)
+0002.656 (0) Successfully created zip file manifest (size: 289203)
+0002.860 (0) Created plugins zip (0) - 23220.8 KB in 2.8 s (8289.9 KB/s) (sha1: da02f905edf549ff3f07a121cdd013d3f019ad01, sha256: b371a4d7dad0dbc9a326db7575ffc34414ddb8f5ecef3c67f1c97bb0a5c80ed6)
+0002.862 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0002.862 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1e5661594ea0601caf9425a2dc58c3da)
+0004.352 (0) Google Drive: quota usage: used=589.7 MB, total=15360 MB, available=14770.3 MB
+0004.353 (0) Google Drive: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip: Attempting to upload to Google Drive (into folder id: 1_QEwkfVEdZse3OPbNXOfdlSWYwmJMyLe)
+0006.821 (0) Googledrive chunked upload: 4.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 5.3 / 12)
+0007.205 (0) Googledrive chunked upload: 13.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 5.3 / 12)
+0007.751 (0) Googledrive chunked upload: 30.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 5.3 / 12)
+0008.661 (0) Googledrive chunked upload: 66.1 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 5.3 / 12)
+0010.842 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0010.846 (0) Google Drive: OK: Archive backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip uploaded in 6.49 seconds
+0010.847 (0) Recording as successfully uploaded: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip
+0010.849 (0) Deleting local file: backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip: OK
+0010.851 (0) Beginning creation of dump of themes (split every: 400 MB)
+0010.853 (0) Total entities for the zip file: 3 directories, 33 files (0 skipped as non-modified), 0.4 MB
+0010.869 (0) backup_2025-12-01-1832_planty_8d64cbcb47f6-themes.zip.tmp: size is now: 0.30 MB
+0010.871 (0) Creating zip file manifest (backup_2025-12-01-1832_planty_8d64cbcb47f6-themes.zip.list-temp.tmp)
+0010.872 (0) Successfully created zip file manifest (size: 1387)
+0010.877 (0) Created themes zip (0) - 329.2 KB in 0 s (13083 KB/s) (sha1: 48464278349163277234b64998e8b503e09c1489, sha256: cc4bc83c7cb8d580bd484799926dbca0c637be3cb7e5f2f7f471a2b1adf51bd3)
+0010.879 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0010.880 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1e5661594ea0601caf9425a2dc58c3da)
+0011.220 (0) Google Drive: quota usage: used=589.7 MB, total=15360 MB, available=14770.3 MB
+0011.222 (0) Google Drive: backup_2025-12-01-1832_planty_8d64cbcb47f6-themes.zip: Attempting to upload to Google Drive (into folder id: 1_QEwkfVEdZse3OPbNXOfdlSWYwmJMyLe)
+0013.376 (0) Googledrive chunked upload: 100 % uploaded
+0013.380 (0) Google Drive: OK: Archive backup_2025-12-01-1832_planty_8d64cbcb47f6-themes.zip uploaded in 2.16 seconds
+0013.380 (0) Recording as successfully uploaded: backup_2025-12-01-1832_planty_8d64cbcb47f6-themes.zip
+0013.381 (0) Deleting local file: backup_2025-12-01-1832_planty_8d64cbcb47f6-themes.zip: OK
+0013.382 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots,wp-staging
+0013.383 (0) Looking for candidates to backup in: /Users/juliette/Local Sites/planty/app/public/wp-content/uploads
+0013.383 (0) finding files: 2025: adding to list (1)
+0013.383 (0) finding files: astra-docs: adding to list (2)
+0013.384 (0) finding files: wpcf7_uploads: adding to list (3)
+0013.384 (0) finding files: wpforms: adding to list (4)
+0013.384 (0) finding files: elementor: adding to list (5)
+0013.384 (0) finding files: beans: adding to list (6)
+0013.385 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0013.389 (0) Total entities for the zip file: 16 directories, 105 files (0 skipped as non-modified), 17.1 MB
+0013.391 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0013.532 (0) backup_2025-12-01-1832_planty_8d64cbcb47f6-uploads.zip.tmp: size is now: 11.30 MB
+0013.535 (0) Creating zip file manifest (backup_2025-12-01-1832_planty_8d64cbcb47f6-uploads.zip.list-temp.tmp)
+0013.535 (0) Successfully created zip file manifest (size: 5586)
+0013.641 (0) Created uploads zip (0) - 11556.4 KB in 0.3 s (45841 KB/s) (sha1: 2c79671025775e00de36cde59e5a9915e4176248, sha256: a27c2de20f54d07915db0a5fdbdb85bd36870cd492deec17f662f67cd7a3aafa)
+0013.643 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0013.643 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1e5661594ea0601caf9425a2dc58c3da)
+0013.952 (0) Google Drive: quota usage: used=612.4 MB, total=15360 MB, available=14747.6 MB
+0013.953 (0) Google Drive: backup_2025-12-01-1832_planty_8d64cbcb47f6-uploads.zip: Attempting to upload to Google Drive (into folder id: 1_QEwkfVEdZse3OPbNXOfdlSWYwmJMyLe)
+0015.024 (0) Googledrive chunked upload: 8.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 4.8 / 12)
+0018.518 (0) Googledrive chunked upload: 26.6 % uploaded (3145728)
+0022.033 (0) Googledrive chunked upload: 44.3 % uploaded (5242880)
+0025.539 (0) Googledrive chunked upload: 62 % uploaded (7340032)
+0025.905 (0) Googledrive chunked upload: 79.7 % uploaded (9437184 - increasing chunk size to 4096 KB - memory usage: 4.9 / 12)
+0031.287 (0) Googledrive chunked upload: 100 % uploaded (9437184)
+0031.290 (0) Google Drive: OK: Archive backup_2025-12-01-1832_planty_8d64cbcb47f6-uploads.zip uploaded in 17.34 seconds
+0031.291 (0) Recording as successfully uploaded: backup_2025-12-01-1832_planty_8d64cbcb47f6-uploads.zip
+0031.292 (0) Deleting local file: backup_2025-12-01-1832_planty_8d64cbcb47f6-uploads.zip: OK
+0031.294 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0031.294 (0) Does not exist: /Users/juliette/Local Sites/planty/app/public/wp-content/mu-plugins
+0031.294 (0) There are no mu-plugins to backup. Will not raise an error.
+0031.295 (0) mu-plugins: create_zip returned an error
+0031.295 (0) Beginning backup of other directories found in the content directory (index: 0)
+0031.295 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0031.296 (0) Looking for candidates to backup in: /Users/juliette/Local Sites/planty/app/public/wp-content
+0031.296 (0) finding files: upgrade: skipping: excluded by options
+0031.296 (0) finding files: .DS_Store: adding to list (1)
+0031.296 (0) finding files: index.php: adding to list (2)
+0031.296 (0) finding files: upgrade-temp-backup: adding to list (3)
+0031.297 (0) finding files: plugins: skipping: this is the plugins directory
+0031.297 (0) finding files: uploads: skipping: this is the uploads directory
+0031.297 (0) finding files: updraft: skipping: this is the updraft directory
+0031.297 (0) finding files: languages: adding to list (4)
+0031.298 (0) finding files: themes: skipping: this is the themes directory
+0031.302 (0) Total entities for the zip file: 5 directories, 153 files (0 skipped as non-modified), 6 MB
+0031.304 (0) Zip: backup_2025-12-01-1832_planty_8d64cbcb47f6-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0031.497 (0) backup_2025-12-01-1832_planty_8d64cbcb47f6-others.zip.tmp: size is now: 1.70 MB
+0031.499 (0) Creating zip file manifest (backup_2025-12-01-1832_planty_8d64cbcb47f6-others.zip.list-temp.tmp)
+0031.500 (0) Successfully created zip file manifest (size: 10661)
+0031.517 (0) Created others zip (0) - 1773.2 KB in 0.2 s (8110.1 KB/s) (sha1: 7cfe787a7aaf2bb6bdabaa84b421111a595cb34b, sha256: db09aa4cae5ab3fd900a204bbf59c33d97b8649d0be5ccbfb33eb9b372015488)
+0031.519 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0031.520 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1e5661594ea0601caf9425a2dc58c3da)
+0031.871 (0) Google Drive: quota usage: used=612.7 MB, total=15360 MB, available=14747.3 MB
+0031.872 (0) Google Drive: backup_2025-12-01-1832_planty_8d64cbcb47f6-others.zip: Attempting to upload to Google Drive (into folder id: 1_QEwkfVEdZse3OPbNXOfdlSWYwmJMyLe)
+0034.330 (0) Googledrive chunked upload: 57.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 4.9 / 12)
+0036.229 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0036.231 (0) Google Drive: OK: Archive backup_2025-12-01-1832_planty_8d64cbcb47f6-others.zip uploaded in 4.36 seconds
+0036.232 (0) Recording as successfully uploaded: backup_2025-12-01-1832_planty_8d64cbcb47f6-others.zip
+0036.233 (0) Deleting local file: backup_2025-12-01-1832_planty_8d64cbcb47f6-others.zip: OK
+0036.235 (0) Saving backup status to database (elements: 8)
+0036.238 (0) No database backup (wp) - not part of this run
+0036.240 (0) backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip: plugins: This file has already been successfully uploaded
+0036.240 (0) backup_2025-12-01-1832_planty_8d64cbcb47f6-themes.zip: themes: This file has already been successfully uploaded
+0036.240 (0) backup_2025-12-01-1832_planty_8d64cbcb47f6-uploads.zip: uploads: This file has already been successfully uploaded
+0036.240 (0) backup_2025-12-01-1832_planty_8d64cbcb47f6-others.zip: others: This file has already been successfully uploaded
+0036.240 (0) Saving backup history. Total backup size: 36 MB
+0036.242 (0) Resume backup (8d64cbcb47f6, 0): finish run
+0036.242 (0) There were no more files that needed uploading
+0036.243 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=20
+0036.243 (0) Number of backup sets in history: 24; groups (db): 1
+0036.244 (0) Examining (for databases) backup set with group_id=0, nonce=8d64cbcb47f6, datestamp=1764610365 (Dec 01 2025 17:32:45)
+0036.244 (0) Examining (for databases) backup set with group_id=0, nonce=b6b07e4576a8, datestamp=1764327758 (Nov 28 2025 11:02:38)
+0036.244 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.244 (0) Examining (for databases) backup set with group_id=0, nonce=a120ec0514fb, datestamp=1764324255 (Nov 28 2025 10:04:15)
+0036.244 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.244 (0) Examining (for databases) backup set with group_id=0, nonce=623e302c478b, datestamp=1764322890 (Nov 28 2025 09:41:30)
+0036.244 (0) Examining (for databases) backup set with group_id=0, nonce=920e39f91914, datestamp=1764322883 (Nov 28 2025 09:41:23)
+0036.244 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.244 (0) Examining (for databases) backup set with group_id=0, nonce=4eeace3b4458, datestamp=1764252812 (Nov 27 2025 14:13:32)
+0036.244 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.245 (0) Examining (for databases) backup set with group_id=0, nonce=3775cf502f5f, datestamp=1764248898 (Nov 27 2025 13:08:18)
+0036.245 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.245 (0) Examining (for databases) backup set with group_id=0, nonce=b74e47edd9b5, datestamp=1764245653 (Nov 27 2025 12:14:13)
+0036.245 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.245 (0) Examining (for databases) backup set with group_id=0, nonce=80c5cae4b050, datestamp=1764241581 (Nov 27 2025 11:06:21)
+0036.245 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.245 (0) Examining (for databases) backup set with group_id=0, nonce=ed1331385b54, datestamp=1764237768 (Nov 27 2025 10:02:48)
+0036.245 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.245 (0) Examining (for databases) backup set with group_id=0, nonce=dfd770b98460, datestamp=1764234267 (Nov 27 2025 09:04:27)
+0036.245 (0) Examining (for databases) backup set with group_id=0, nonce=3c47b261a47c, datestamp=1764234254 (Nov 27 2025 09:04:14)
+0036.245 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.245 (0) Examining (for databases) backup set with group_id=0, nonce=b8e8f415d3b2, datestamp=1764187421 (Nov 26 2025 20:03:41)
+0036.245 (0) Examining (for databases) backup set with group_id=0, nonce=f1a726855452, datestamp=1764187413 (Nov 26 2025 20:03:33)
+0036.245 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.245 (0) Examining (for databases) backup set with group_id=0, nonce=2ddfdc0b8ec9, datestamp=1764181059 (Nov 26 2025 18:17:39)
+0036.245 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.245 (0) Examining (for databases) backup set with group_id=0, nonce=42911c42cf77, datestamp=1764180342 (Nov 26 2025 18:05:42)
+0036.246 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.246 (0) Examining (for databases) backup set with group_id=0, nonce=dbecf0acbdfd, datestamp=1764180154 (Nov 26 2025 18:02:34)
+0036.246 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.246 (0) Examining (for databases) backup set with group_id=0, nonce=9f0578b75949, datestamp=1764176568 (Nov 26 2025 17:02:48)
+0036.246 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.246 (0) Examining (for databases) backup set with group_id=0, nonce=573b01b49856, datestamp=1764174943 (Nov 26 2025 16:35:43)
+0036.246 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.246 (0) Examining (for databases) backup set with group_id=0, nonce=15fd4d462cc9, datestamp=1764173645 (Nov 26 2025 16:14:05)
+0036.246 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.246 (0) Examining (for databases) backup set with group_id=0, nonce=ae0534002b00, datestamp=1764165764 (Nov 26 2025 14:02:44)
+0036.246 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.246 (0) Examining (for databases) backup set with group_id=0, nonce=0dd57d0491c1, datestamp=1764162155 (Nov 26 2025 13:02:35)
+0036.246 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.246 (0) Examining (for databases) backup set with group_id=0, nonce=7a786de7c91b, datestamp=1764160068 (Nov 26 2025 12:27:48)
+0036.246 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.246 (0) Examining (for databases) backup set with group_id=0, nonce=02da6deeb388, datestamp=1764155038 (Nov 26 2025 11:03:58)
+0036.246 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.246 (0) Number of backup sets in history: 24; groups (files): 1
+0036.247 (0) Examining (for files) backup set with nonce=8d64cbcb47f6, datestamp=1764610365 (Dec 01 2025 17:32:45)
+0036.247 (0) This backup set is the backup set just made, so will not be deleted.
+0036.247 (0) This backup set is the backup set just made, so will not be deleted.
+0036.247 (0) This backup set is the backup set just made, so will not be deleted.
+0036.247 (0) This backup set is the backup set just made, so will not be deleted.
+0036.247 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0036.247 (0) Examining (for files) backup set with nonce=b6b07e4576a8, datestamp=1764327758 (Nov 28 2025 11:02:38)
+0036.247 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.247 (0) Examining (for files) backup set with nonce=a120ec0514fb, datestamp=1764324255 (Nov 28 2025 10:04:15)
+0036.247 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.247 (0) Examining (for files) backup set with nonce=623e302c478b, datestamp=1764322890 (Nov 28 2025 09:41:30)
+0036.247 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0036.248 (0) Examining (for files) backup set with nonce=920e39f91914, datestamp=1764322883 (Nov 28 2025 09:41:23)
+0036.248 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.248 (0) Examining (for files) backup set with nonce=4eeace3b4458, datestamp=1764252812 (Nov 27 2025 14:13:32)
+0036.248 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.248 (0) Examining (for files) backup set with nonce=3775cf502f5f, datestamp=1764248898 (Nov 27 2025 13:08:18)
+0036.248 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.248 (0) Examining (for files) backup set with nonce=b74e47edd9b5, datestamp=1764245653 (Nov 27 2025 12:14:13)
+0036.248 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.248 (0) Examining (for files) backup set with nonce=80c5cae4b050, datestamp=1764241581 (Nov 27 2025 11:06:21)
+0036.248 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.248 (0) Examining (for files) backup set with nonce=ed1331385b54, datestamp=1764237768 (Nov 27 2025 10:02:48)
+0036.248 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.249 (0) Examining (for files) backup set with nonce=dfd770b98460, datestamp=1764234267 (Nov 27 2025 09:04:27)
+0036.249 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0036.249 (0) Examining (for files) backup set with nonce=3c47b261a47c, datestamp=1764234254 (Nov 27 2025 09:04:14)
+0036.249 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.249 (0) Examining (for files) backup set with nonce=b8e8f415d3b2, datestamp=1764187421 (Nov 26 2025 20:03:41)
+0036.249 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0036.249 (0) Examining (for files) backup set with nonce=f1a726855452, datestamp=1764187413 (Nov 26 2025 20:03:33)
+0036.249 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.249 (0) Examining (for files) backup set with nonce=2ddfdc0b8ec9, datestamp=1764181059 (Nov 26 2025 18:17:39)
+0036.249 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.249 (0) Examining (for files) backup set with nonce=42911c42cf77, datestamp=1764180342 (Nov 26 2025 18:05:42)
+0036.249 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.250 (0) Examining (for files) backup set with nonce=dbecf0acbdfd, datestamp=1764180154 (Nov 26 2025 18:02:34)
+0036.250 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.250 (0) Examining (for files) backup set with nonce=9f0578b75949, datestamp=1764176568 (Nov 26 2025 17:02:48)
+0036.250 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.250 (0) Examining (for files) backup set with nonce=573b01b49856, datestamp=1764174943 (Nov 26 2025 16:35:43)
+0036.250 (0) plugins: over retain limit (10); will delete this file entity
+0036.250 (0) themes: over retain limit (10); will delete this file entity
+0036.250 (0) uploads: over retain limit (10); will delete this file entity
+0036.250 (0) others: over retain limit (10); will delete this file entity
+0040.140 (0) Google Drive: backup_2025-11-26-1735_planty_573b01b49856-others.zip: Deletion successful
+0041.839 (0) Google Drive: backup_2025-11-26-1735_planty_573b01b49856-uploads.zip: Deletion successful
+0043.066 (0) Google Drive: backup_2025-11-26-1735_planty_573b01b49856-themes.zip: Deletion successful
+0044.169 (0) Google Drive: backup_2025-11-26-1735_planty_573b01b49856-plugins.zip: Deletion successful
+0044.172 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0044.173 (0) Examining (for files) backup set with nonce=15fd4d462cc9, datestamp=1764173645 (Nov 26 2025 16:14:05)
+0044.174 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0044.175 (0) Examining (for files) backup set with nonce=ae0534002b00, datestamp=1764165764 (Nov 26 2025 14:02:44)
+0044.175 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0044.175 (0) Examining (for files) backup set with nonce=0dd57d0491c1, datestamp=1764162155 (Nov 26 2025 13:02:35)
+0044.175 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0044.175 (0) Examining (for files) backup set with nonce=7a786de7c91b, datestamp=1764160068 (Nov 26 2025 12:27:48)
+0044.175 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0044.175 (0) Examining (for files) backup set with nonce=02da6deeb388, datestamp=1764155038 (Nov 26 2025 11:03:58)
+0044.175 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0044.175 (0) Retain: saving new backup history (sets now: 24) and finishing retain operation
+0044.178 (0) Decremented the semaphore (f) by 1
+0044.178 (0) Semaphore (f) unlocked
+0044.179 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0044.180 (0) The backup succeeded and is now complete
+0044.180 (0) Deleting zip manifest (backup_2025-12-01-1832_planty_8d64cbcb47f6-plugins.zip.list.tmp)
+0044.181 (0) Deleting zip manifest (backup_2025-12-01-1832_planty_8d64cbcb47f6-themes.zip.list.tmp)
+0044.181 (0) Deleting zip manifest (backup_2025-12-01-1832_planty_8d64cbcb47f6-uploads.zip.list.tmp)
+0044.181 (0) Deleting zip manifest (backup_2025-12-01-1832_planty_8d64cbcb47f6-others.zip.list.tmp)
+0044.181 (0) No email will/can be sent - the user has not configured an email address.
+0044.182 (0) La sauvegarde a réussi et est maintenant terminée
